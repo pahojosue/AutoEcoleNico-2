@@ -199,15 +199,22 @@ body {
   
 
 .banner {
-    background: url(notes.jpg) center/cover no-repeat;
-    height: 50vh;
+    height: 500px;
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
-    color: white;
     text-align: center;
   }
+
+  .banner-content {
+    width: 100%;
+   object-fit: cover;
+   filter: brightness(0.6);
+   height: 700px;
+  }
+  
+
   .banner::before {
     content: "";
     position: absolute;
