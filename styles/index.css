@@ -5,12 +5,19 @@
   font-weight: normal;
   src: url('../fonts/barlow.woff2') format('woff2');
 }
+/* Barlow bold */
+@font-face {
+  font-family: 'Barlow-bold';
+  font-style: normal;
+  font-weight: normal;
+  src: url('../fonts/Barlow-Bold.ttf') format('TrueType');
+}
 
 :root{
     --primary-color: #E81D4F;
     --secondary-color: #041E37;
     --transparent-background: rgba(255, 255, 255, 0.2);
-    --page-padding: 4%;
+    --page-padding: 6%;
 }
 
 body {
@@ -93,7 +100,7 @@ body {
     padding: 20px 15px;
     text-decoration: none;
     text-align: center;
-    font-weight: 900;
+    font-family: 'Barlow-bold', sans-serif;
     color: var(--secondary-color);
 }
 
@@ -132,18 +139,6 @@ body {
 
 .nav-links a:hover {
     color: var(--primary-color);
-}
-
-.nav-links a:hover .header-plus-sign {
-    display: none;
-}
-
-.header-minus-sign {
-    display: none;
-}
-
-.nav-links a:hover .header-minus-sign {
-    display: inline;
 }
 
 #header .scrolled-top-header {
@@ -186,7 +181,7 @@ body {
 /*                 Main Style             */
 .swiper {
   width: 100%;
-  height: 700px;
+  height: 600px;
   margin: auto;
   overflow: hidden;
   position: relative;
@@ -209,16 +204,140 @@ body {
     position: relative;
 }
 
+.swiper-wrapper {
+    position: relative;
+}
+
 .content-slide {
     position: absolute;
-    top: 20%;
-    left: var(--page-padding);
-    width: 50%;
-    backdrop-filter: var(--secondary-color);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    left: 0;
+    top: 0;
+    padding-left: var(--page-padding);
+     padding-right: var(--page-padding);
+    /* backdrop-filter: var(--secondary-color); */
+    background: rgb(4, 30, 55, 0.7);
+}
+
+.sous-titre{
+    width: 55%;
 }
 
 .swiper-button-prev, .swiper-button-next{
     color: var(--primary-color);
+}
+
+.content-slide .title-slider {
+    font-family: 'Barlow', sans-serif;
+    font-size: 24px;
+    color: white;
+    font-weight: 900;
+}
+
+.content-slide .subtitle-slider {
+    font-family: 'Barlow-bold', sans-serif;
+    font-size: 55px;
+    font-weight: 200;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.slider-apply-primary {
+    color: var(--primary-color);
+}
+
+.content-slide .paragraph-slider {
+    font-size: 18px;
+    color: white;
+    line-height: 2rem;
+    margin-top: 0px;
+}
+
+.content-slide .slider-buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.content-slide .slider-buttons button{
+    padding: 14px 8px 14px 18px;
+    color: white;
+    cursor: pointer;
+    font-weight: 700;
+    line-height: 10px;
+}
+
+.arrow-in-slider-button {
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    background-color: white;
+    padding-top: 0;
+    margin-left: 10px;
+}
+.slider-button-primary .arrow-in-slider-button {
+    color: var(--primary-color);
+}
+.slider-button-secondary .arrow-in-slider-button {
+    color: var(--secondary-color);
+}
+
+.slider-button-primary {
+    background-color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+}
+.slider-button-secondary {
+    background-color: var(--secondary-color);
+    border: 1px solid var(--secondary-color);
+}
+
+.content-slide .slider-buttons .slider-button-primary:hover {
+    background: var(--secondary-color);
+    border: 1px solid var(--secondary-color);
+    transition: 0.5s ease-in-out;
+}
+.content-slide .slider-buttons .slider-button-secondary:hover {
+    background: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    transition: 0.5s ease-in-out;
+}
+
+.content-slide .slider-buttons .slider-button-primary:hover .arrow-in-slider-button {
+    color: var(--secondary-color);
+    transition: 0.5s ease-in-out;
+}
+.content-slide .slider-buttons .slider-button-secondary:hover .arrow-in-slider-button {
+    color: var(--primary-color);
+    transition: 0.5s ease-in-out;
+}
+
+@keyframes fadeInUp {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
+
+.swiper-slide-active  .content-slide .fadeInUp-title-animation {
+    animation: 1s fadeInUp;
+}
+.swiper-slide-active  .content-slide .fadeInUp-subtitle-animation {
+    animation: 1.5s fadeInUp;
+    animation-delay: 0.4s;
+}
+.swiper-slide-active  .content-slide .fadeInUp-paragraph-animation {
+    animation: 1.5s fadeInUp;
+    animation-delay: 0.6s;
+}
+.swiper-slide-active  .content-slide .fadeInUp-button-animation {
+    animation: 1.5s fadeInUp;
+    animation-delay: 0.6s;
 }
 
 

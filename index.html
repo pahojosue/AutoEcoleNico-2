@@ -75,39 +75,45 @@
                 <div class="swiper-slide slide-1">
                     <img src="images/slider-1.jpg" alt="">
                     <div class="content-slide">
-                        <h2 class="title-slider">DEVELOPING YOUR DRIVING SKILLS</h2>
-                        <h1 class="subtitle-slider">WE HELP YOU TO MAKE YOURSELF EXPERT DRIVER</h1>
-                        <p class="paragraph-slider">There are many variations of passages available but the majority have suffered alteration in some form by injected humour or randomised words</p>
-                        <div class="slider-buttons">
-                            <button class="slider-button-primary">CONTACT US</button>
-                            <button class="slider-button-secondary">ABOUT US</button>
+                        <div class="sous-titre">
+                        <h2 class="title-slider fadeInUp-title-animation">DEVELOPING YOUR DRIVING SKILLS</h2>
+                        <h1 class="subtitle-slider fadeInUp-subtitle-animation">WE HELP YOU TO MAKE <span class="slider-apply-primary">YOURSELF</span> EXPERT DRIVER</h1>
+                        <p class="paragraph-slider fadeInUp-paragraph-animation">There are many variations of passages available but the majority have suffered alteration in some form by injected humour or randomised words</p>
+                        <div class="slider-buttons fadeInUp-button-animation">
+                            <button class="slider-button-primary">CONTACT US <i class="fa-solid fa-arrow-right arrow-in-slider-button"></i></button>
+                            <button class="slider-button-secondary">ABOUT US <i class="fa-solid fa-arrow-right arrow-in-slider-button"></i></button>
+                        </div>
                         </div>
                     </div>
                 </div>
 
                 <div class="swiper-slide slide-2">
                     <img src="images/slider-2.jpg" alt="">
-                            <div class="content-slide">
-                            <h2 class="title-slider">DEVELOPING YOUR DRIVING SKILLS</h2>
-                            <h1 class="subtitle-slider">WE HELP YOU TO MAKE YOURSELF EXPERT DRIVER</h1>
-                            <p class="paragraph-slider">There are many variations of passages available but the majority have suffered alteration in some form by injected humour or randomised words</p>
-                            <div class="slider-buttons">
-                                <button class="slider-button-primary">CONTACT US</button>
-                                <button class="slider-button-secondary">ABOUT US</button>
-                            </div>
+                    <div class="content-slide">
+                        <div class="sous-titre">
+                        <h2 class="title-slider fadeInUp-title-animation">DEVELOPING YOUR DRIVING SKILLS</h2>
+                        <h1 class="subtitle-slider fadeInUp-subtitle-animation">WE HELP YOU TO MAKE <span class="slider-apply-primary">YOURSELF</span> EXPERT DRIVER</h1>
+                        <p class="paragraph-slider fadeInUp-paragraph-animation">There are many variations of passages available but the majority have suffered alteration in some form by injected humour or randomised words</p>
+                        <div class="slider-buttons fadeInUp-button-animation">
+                            <button class="slider-button-primary">CONTACT US <i class="fa-solid fa-arrow-right arrow-in-slider-button"></i></button>
+                            <button class="slider-button-secondary">ABOUT US <i class="fa-solid fa-arrow-right arrow-in-slider-button"></i></button>
                         </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="swiper-slide slide-3">
                     <img src="images/slider-3.jpg" alt="">
-                        <div class="content-slide">
-                            <h2 class="title-slider">DEVELOPING YOUR DRIVING SKILLS</h2>
-                            <h1 class="subtitle-slider">WE HELP YOU TO MAKE YOURSELF EXPERT DRIVER</h1>
-                            <p class="paragraph-slider">There are many variations of passages available but the majority have suffered alteration in some form by injected humour or randomised words</p>
-                            <div class="slider-buttons">
-                                <button class="slider-button-primary">CONTACT US</button>
-                                <button class="slider-button-secondary">ABOUT US</button>
-                            </div>
+                    <div class="content-slide">
+                        <div class="sous-titre">
+                        <h2 class="title-slider fadeInUp-title-animation">DEVELOPING YOUR DRIVING SKILLS</h2>
+                        <h1 class="subtitle-slider fadeInUp-subtitle-animation">WE HELP YOU TO MAKE <span class="slider-apply-primary">YOURSELF</span> EXPERT DRIVER</h1>
+                        <p class="paragraph-slider fadeInUp-paragraph-animation">There are many variations of passages available but the majority have suffered alteration in some form by injected humour or randomised words</p>
+                        <div class="slider-buttons fadeInUp-button-animation">
+                            <button class="slider-button-primary">CONTACT US <i class="fa-solid fa-arrow-right arrow-in-slider-button"></i></button>
+                            <button class="slider-button-secondary">ABOUT US <i class="fa-solid fa-arrow-right arrow-in-slider-button"></i></button>
                         </div>
+                        </div>
+                    </div>
                 </div>
             </div>
 
@@ -121,23 +127,25 @@
 
     <script src="javascript/swiper-bundle.min.js"></script>
     <script src="javascript/all.min.js"></script>
+    <!--Swiper Library for Carousel-->
     <script>
-         const swiper = new Swiper('.swiper', {
-    loop: true,
-    speed: 2000,
-    pagination: {
-      el: '.swiper-pagination',
-    },
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    },
-    // Optional: add swipe features
-    autoplay: {
-      delay: 4000,
-      disableOnInteraction: true,
-    },
-  });
+        const swiper = new Swiper('.swiper', {
+            loop: true,
+            speed: 2000,
+            pagination: {
+                el: '.swiper-pagination',
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            // Optional: add swipe features
+            autoplay: {
+                delay: 4000,
+                disableOnInteraction: false,
+            },
+        });
     </script>
+    <!--End of Swiper Slider for Carousel-->
 </body>
 </html>
