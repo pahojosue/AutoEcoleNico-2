@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/all.min.css">
+    <link rel="stylesheet" href="styles/swiper-bundle.min.css">
+    <link rel="stylesheet" href="styles/index.css">
+    <script src="javascript/jquery.min.js"></script>
+    <script src="javascript/index.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <!--   Header   -->
+    <div id="header">
+        <div class="header-top">
+            <div class="header-social-text">
+                <a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="20px" fill="#E81D4F"><path d="M480-480q33 0 56.5-23.5T560-560q0-33-23.5-56.5T480-640q-33 0-56.5 23.5T400-560q0 33 23.5 56.5T480-480Zm0 294q122-112 181-203.5T720-552q0-109-69.5-178.5T480-800q-101 0-170.5 69.5T240-552q0 71 59 162.5T480-186Zm0 106Q319-217 239.5-334.5T160-552q0-150 96.5-239T480-880q127 0 223.5 89T800-552q0 100-79.5 217.5T480-80Zm0-480Z"/></svg>
+                    25/B Milford Road, New York
+                </a>
+                <hr>
+                <a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="20px" fill="#E81D4F"><path d="M798-120q-125 0-247-54.5T329-329Q229-429 174.5-551T120-798q0-18 12-30t30-12h162q14 0 25 9.5t13 22.5l26 140q2 16-1 27t-11 19l-97 98q20 37 47.5 71.5T387-386q31 31 65 57.5t72 48.5l94-94q9-9 23.5-13.5T670-390l138 28q14 4 23 14.5t9 23.5v162q0 18-12 30t-30 12ZM241-600l66-66-17-94h-89q5 41 14 81t26 79Zm358 358q39 17 79.5 27t81.5 13v-88l-94-19-67 67ZM241-600Zm358 358Z"/></svg>
+                    +2 123 654 7898
+                </a>
+                <hr>
+                <a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="20px" fill="#E81D4F"><path d="M160-160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h640q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160H160Zm320-280L160-640v400h640v-400L480-440Zm0-80 320-200H160l320 200ZM160-640v-80 480-400Z"/></svg>
+                    info@example.com
+                </a>
+            </div>
+
+            <div class="header-social-icons">
+                <a href="#"><i class="fa-brands fa-facebook-f" style="width: 16px; height: 16px; color: white;"></i></a>
+                <a href="#"><i class="fa-brands fa-x-twitter" style="width: 16px; height: 16px; color: white"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram" style="width: 16px; height: 16px; color: white"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in" style="width: 16px; height: 16px; color: white;"></i></a>
+                <a href="#"><i class="fa-brands fa-whatsapp" style="width: 16px; height: 16px; color: white;"></i></a>
+            </div>
+        </div>
+
+        <div class="header-bottom">
+            <div class="logo">
+                <img src="images/auto-ecole-nico.png" alt="Logo" width="70px">
+            </div>
+            <ul class="nav-links">
+                <li class="nav-link"><a href="#">ACCUEIL</a></li>
+                <li class="nav-link"><a href="#">À PROPOS</a></li>
+                <li class="nav-link"><a href="#">SERVICES</a></li>
+                <li class="nav-link"><a href="#">ACTUALITÉS</a></li>
+                <a href="#"><button class="header-btn-contact"><span class="text-in-button">NOUS CONTACTER</span> <i class="fa-solid fa-arrow-right arrow-in-header-button"></i></button></a>
+            </ul>
+            <div class="header-hamburger" onclick="showBottomBar()">
+                <i class="fa-solid fa-bars-staggered" style="width: 30px; height: 30px;"></i>
+            </div>
+        </div>
+
+        <div class="bottom-bar">
+            <ul class="bottom-bar-nav-links">
+                <li class="bottom-bar-nav-link"><a href="#">ACCUEIL</a></li>
+                <li class="bottom-bar-nav-link"><a href="#">SERVICES</a></li>
+                <li class="bottom-bar-nav-link"><a href="#">A PROPOS</a></li>
+                <li class="bottom-bar-nav-link"><a href="#">ACTUALITES</a></li>
+            </ul>
+        </div>
+    </div>
+
+<!--                            Main Part                   -->
+    <section id="main">
+        <!-- Swiper Container -->
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide slide-1">
+                    <img src="images/slider-1.jpg" alt="">
+                    <div class="content-slide">
+                        <h2 class="title-slider">DEVELOPING YOUR DRIVING SKILLS</h2>
+                        <h1 class="subtitle-slider">WE HELP YOU TO MAKE YOURSELF EXPERT DRIVER</h1>
+                        <p class="paragraph-slider">There are many variations of passages available but the majority have suffered alteration in some form by injected humour or randomised words</p>
+                        <div class="slider-buttons">
+                            <button class="slider-button-primary">CONTACT US</button>
+                            <button class="slider-button-secondary">ABOUT US</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide-2">
+                    <img src="images/slider-2.jpg" alt="">
+                            <div class="content-slide">
+                            <h2 class="title-slider">DEVELOPING YOUR DRIVING SKILLS</h2>
+                            <h1 class="subtitle-slider">WE HELP YOU TO MAKE YOURSELF EXPERT DRIVER</h1>
+                            <p class="paragraph-slider">There are many variations of passages available but the majority have suffered alteration in some form by injected humour or randomised words</p>
+                            <div class="slider-buttons">
+                                <button class="slider-button-primary">CONTACT US</button>
+                                <button class="slider-button-secondary">ABOUT US</button>
+                            </div>
+                        </div>
+                </div>
+                <div class="swiper-slide slide-3">
+                    <img src="images/slider-3.jpg" alt="">
+                        <div class="content-slide">
+                            <h2 class="title-slider">DEVELOPING YOUR DRIVING SKILLS</h2>
+                            <h1 class="subtitle-slider">WE HELP YOU TO MAKE YOURSELF EXPERT DRIVER</h1>
+                            <p class="paragraph-slider">There are many variations of passages available but the majority have suffered alteration in some form by injected humour or randomised words</p>
+                            <div class="slider-buttons">
+                                <button class="slider-button-primary">CONTACT US</button>
+                                <button class="slider-button-secondary">ABOUT US</button>
+                            </div>
+                        </div>
+                </div>
+            </div>
+
+            <!-- Optional: Pagination and Navigation -->
+            <!-- <div class="swiper-pagination"></div> -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </section>
+<!--                            End Of Main Part                   -->
+
+    <script src="javascript/swiper-bundle.min.js"></script>
+    <script src="javascript/all.min.js"></script>
+    <script>
+         const swiper = new Swiper('.swiper', {
+    loop: true,
+    speed: 2000,
+    pagination: {
+      el: '.swiper-pagination',
+    },
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    // Optional: add swipe features
+    autoplay: {
+      delay: 4000,
+      disableOnInteraction: true,
+    },
+  });
+    </script>
+</body>
+</html>
