@@ -42,14 +42,17 @@
 
         <div class="header-bottom">
             <div class="logo">
-                <img src="images/auto-ecole-nico.png" alt="Logo" width="70px">
+                <img src="images/auto-ecole-nico.png" alt="Logo" width="60px">
             </div>
             <ul class="nav-links">
                 <li class="nav-link"><a href="./index.html">ACCUEIL</a></li>
                 <li class="nav-link"><a href="./apropos.html">À PROPOS</a></li>
                 <li class="nav-link"><a href="./services.html">SERVICES</a></li>
                 <li class="nav-link"><a href="./actualite.html">ACTUALITÉS</a></li>
-                <a href="#"><button class="header-btn-contact"><span class="text-in-button">NOUS CONTACTER</span> <i class="fa-solid fa-arrow-right arrow-in-header-button"></i></button></a>
+                <a href="#" class="header-btn-contact">
+                    <span class="text-in-button">NOUS CONTACTER</span> 
+                    <i class="fa-solid fa-arrow-right arrow-in-header-button"></i>
+                </a>
             </ul>
             <div class="header-hamburger" onclick="showBottomBar()">
                 <i class="fa-solid fa-bars-staggered" style="width: 30px; height: 30px;"></i>
@@ -75,7 +78,7 @@
                 <div class="swiper-slide slide-1">
                     <img src="images/slider-1.jpg" alt="">
                     <div class="content-slide">
-                        <div class="sous-titre">
+                        <div class="content-slide-text">
                         <h2 class="title-slider fadeInUp-title-animation">DEVELOPING YOUR DRIVING SKILLS</h2>
                         <h1 class="subtitle-slider fadeInUp-subtitle-animation">WE HELP YOU TO MAKE <span class="slider-apply-primary">YOURSELF</span> EXPERT DRIVER</h1>
                         <p class="paragraph-slider fadeInUp-paragraph-animation">There are many variations of passages available but the majority have suffered alteration in some form by injected humour or randomised words</p>
@@ -90,21 +93,21 @@
                 <div class="swiper-slide slide-2">
                     <img src="images/slider-2.jpg" alt="">
                     <div class="content-slide">
-                        <div class="sous-titre">
-                        <h2 class="title-slider fadeInUp-title-animation">DEVELOPING YOUR DRIVING SKILLS</h2>
-                        <h1 class="subtitle-slider fadeInUp-subtitle-animation">WE HELP YOU TO MAKE <span class="slider-apply-primary">YOURSELF</span> EXPERT DRIVER</h1>
-                        <p class="paragraph-slider fadeInUp-paragraph-animation">There are many variations of passages available but the majority have suffered alteration in some form by injected humour or randomised words</p>
-                        <div class="slider-buttons fadeInUp-button-animation">
-                            <button class="slider-button-primary">CONTACT US <i class="fa-solid fa-arrow-right arrow-in-slider-button"></i></button>
-                            <button class="slider-button-secondary">ABOUT US <i class="fa-solid fa-arrow-right arrow-in-slider-button"></i></button>
-                        </div>
+                        <div class="content-slide-text">
+                            <h2 class="title-slider fadeInUp-title-animation">DEVELOPING YOUR DRIVING SKILLS</h2>
+                            <h1 class="subtitle-slider fadeInUp-subtitle-animation">WE HELP YOU TO MAKE <span class="slider-apply-primary">YOURSELF</span> EXPERT DRIVER</h1>
+                            <p class="paragraph-slider fadeInUp-paragraph-animation">There are many variations of passages available but the majority have suffered alteration in some form by injected humour or randomised words</p>
+                            <div class="slider-buttons fadeInUp-button-animation">
+                                <button class="slider-button-primary">CONTACT US <i class="fa-solid fa-arrow-right arrow-in-slider-button"></i></button>
+                                <button class="slider-button-secondary">ABOUT US <i class="fa-solid fa-arrow-right arrow-in-slider-button"></i></button>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="swiper-slide slide-3">
                     <img src="images/slider-3.jpg" alt="">
                     <div class="content-slide">
-                        <div class="sous-titre">
+                        <div class="content-slide-text">
                         <h2 class="title-slider fadeInUp-title-animation">DEVELOPING YOUR DRIVING SKILLS</h2>
                         <h1 class="subtitle-slider fadeInUp-subtitle-animation">WE HELP YOU TO MAKE <span class="slider-apply-primary">YOURSELF</span> EXPERT DRIVER</h1>
                         <p class="paragraph-slider fadeInUp-paragraph-animation">There are many variations of passages available but the majority have suffered alteration in some form by injected humour or randomised words</p>
@@ -119,9 +122,146 @@
 
             <!-- Optional: Pagination and Navigation -->
             <!-- <div class="swiper-pagination"></div> -->
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev">
+                <i class="fa-solid fa-arrow-left left-arrow-slider"></i>
+            </div>
+            <div class="swiper-button-next">
+                <i class="fa-solid fa-arrow-right right-arrow-slider"></i>
+            </div>
         </div>
+<!--                   Swiper End           -->
+
+<!--                   Card Start            -->
+        <div class="index-explain">
+
+            <div class="index-card">
+                <div class="index-img">
+                    <img src="images/index-images-shapes/instructor.svg" alt="">
+                </div>
+                <a href="#">Best Instructor</a>
+                <p>There are many variations of the passages available but the majority have suffered to the alteration in some form injected humour.</p>
+            </div>
+
+            <div class="index-card index-invert-card">
+                <div class="index-img">
+                    <img src="images/index-images-shapes/training.svg" alt="">
+                </div>
+                <a href="#">Instructional Video</a>
+                <p>There are many variations of the passages available but the majority have suffered to the alteration in some form injected humour.</p>
+            </div>
+
+            <div class="index-card">
+                <div class="index-img">
+                    <img src="images/index-images-shapes/driving-school.svg" alt="">
+                </div>
+                <a href="#">Driving Lesson</a>
+                <p>There are many variations of the passages available but the majority have suffered to the alteration in some form injected humour.</p>
+            </div>
+
+            <div class="index-card  index-invert-card">
+                <div class="index-img">
+                    <img src="images/index-images-shapes/license.svg" alt="">
+                </div>
+                <a href="#">Fully Licensed</a>
+                <p>There are many variations of the passages available but the majority have suffered to the alteration in some form injected humour.</p>
+            </div>
+        </div>
+<!--                   Card End            -->
+
+<!--                    Start Index About             -->
+        <div class="index-about">
+
+            <div class="index-left-about">
+                <div class="index-left-about-shape-1">
+                    <img src="images/index-images-shapes/about-image.jpg" alt="">
+                    <div class="index-about-experience-wrapper">
+                        <div class="index-about-experience">
+                            <h2>25 +</h2>
+                            <p>Years Experience</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="index-left-about-shape-2">
+                    <img src="images/index-images-shapes/about-shape.svg" alt="">
+                </div>
+            </div>
+
+            <div class="index-right-about">
+                <h2 class="index-about-title">ABOUT US</h2>
+                <h1 class="index-about-subtitle">We Can Help Develop <span class="index-about-subtitle-primary">For Your Driving</span> Skills</h1>
+                <p class="index-about-p">There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form by injected humour or randomised words which don't look even slightly believable you are going to use a passage.</p>
+                <div class="index-about-check-p">
+                    <i class="fa-solid far fa-check-circle index-check"></i>
+                    Take a look at our round up of the best shows
+                </div>
+                <div class="index-about-check-p">
+                    <i class="fa-solid far fa-check-circle index-check"></i>
+                    It has survived not only five centuries
+                </div>
+                <div class="index-about-check-p">
+                    <i class="fa-solid far fa-check-circle index-check"></i>
+                    Lorem Ipsum has been the ndustry standard dummy text
+                </div>
+                <div class="index-about-phone">
+                    <i class="fa-solid fa-phone-volume index-about-phone-icon"></i>
+                    <a href="#" class="index-about-phone-number">+2 123 654 7898</a>
+                </div>
+                <div class="index-about-link">
+                    <a href="./apropos.html">DISCOVER MORE</a>
+                    <i class="fa-solid fa-arrow-right index-about-right-arrow"></i>
+                </div>
+            </div>
+        </div>
+<!--                    End Index About             -->
+
+        <section class="index-courses">
+            <div class="index-course-title">
+                COURSES
+            </div>
+            <div class="index-course-subtitle">
+                Our Popular <span class="index-course-subtitle-primary">Driving Course</span>
+            </div>
+
+            <div class="index-course-card-container">
+                <div class="index-course-card">
+                    <img src="images/index-images-shapes/index-course-01.jpg" alt="">
+                    <div class="index-course-card-explain">
+                        <div class="first">
+                            <i class="fa-solid fa-layer-group index-course-card-explain-icon"></i>
+                            <p>Beginner</p>
+                        </div>
+                        <div class="second">
+                            <i class="fa-regular fa-clock index-course-card-explain-icon"></i>
+                            <p>2 Weeks</p>
+                        </div>
+                        <div class="third">
+                            $500
+                        </div>
+                    </div>
+                    <div class="index-course-card-title">
+                        Learn To Drive Slowly
+                    </div>
+                    <div class="index-course-card-description">
+                        There are many variations of passages available but the majority have suffered to the alteration in some form by injected.
+                    </div>
+                    <hr>
+                    <div class="index-course-card-bottom">
+                        <div class="first">
+                            <img src="images/index-images-shapes/index-course-ins-1.jpg" alt="">
+                            <div class="descript-first">
+                                <h4>Anna Langford</h4>
+                                <p>Instructor</p>
+                            </div>
+                        </div>
+                        <div class="second">
+                            View Details
+                            <i class="fa-solid fas fa-long-arrow-alt-right"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
     </section>
 <!--                            End Of Main Part                   -->
 
