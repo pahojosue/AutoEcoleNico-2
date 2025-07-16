@@ -191,10 +191,14 @@ body {
     padding: 0;
     font-size: 16px;
 }
- 
+ .description p{
+    color: white;
+    font-size: 1.5rem;
+    font-family: 'Barlow';
+ }
 .header-accueil{
     text-align: center;
-    color: white;
+    color: #E81D4F;;
     padding: 4rem 1rem;
     background-image: url(../images/02.jpg);
     background-position: 0 0;
@@ -205,6 +209,27 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+.home-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  text-decoration: none;
+  margin-bottom: 20px;
+  transition: color 0.3s ease;
+}
+
+.home-link:hover {
+  color: #E81D4F;;
+}
+
+.home-img {
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
 }
 /*animation de defilement horizontal */
 @keyframes scroll-bg{
@@ -235,7 +260,7 @@ body {
     border: 1px solid #ccc;
 }
  .news-card {
-    background-color: rgb(6,35,56);
+    background-color: #041E37;
     width: 320px;
     border-radius: 10px;
     overflow: hidden;
@@ -246,7 +271,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #dc0d44;
+  background-color:#E81D4F;
   color: white;
   border-radius: 3px;
   padding: 1px 3px;
@@ -269,7 +294,7 @@ body {
 }
 .circle-arrow {
   background: white;
-  color: #cc1344;
+  color: #bb1841;;
   border-radius: 100%;
   width: 30px;
   height: 30px;
@@ -297,6 +322,7 @@ padding: 1rem;
     margin-top: 0;
     color: #0077b6;
     font-size: 30px;
+    font-family: 'Barlow';
 }
 .news-card p{
     color: white;
@@ -350,7 +376,7 @@ text-decoration: underline;
     max-width: 900px;
     margin: 2rem auto;
     padding: 1rem;
-    background: rgb(6, 35, 56);
+    background: #041E37;
     border-radius: 10px;
    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
  }
@@ -361,7 +387,7 @@ text-decoration: underline;
     margin-bottom: 1rem;
  }
  .detail-page h3{
-    color: #0077b6;
+    color: #d01d4a;;
     margin-bottom: 0.5rem;
  }
  .detail-page .date {
