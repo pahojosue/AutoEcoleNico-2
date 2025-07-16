@@ -18,7 +18,7 @@
     --secondary-color: #041E37;
     --transparent-background: rgba(255, 255, 255, 0.1);
     --page-padding: 6%;
-    --card-padding: 3%;
+    --card-padding: 2%;
     --barlow-bold: 'Barlow-bold', sans-serif;
 }
 
@@ -631,6 +631,7 @@ body {
 }
 /*                   End About                                      */
 
+/*                      Start Course                                */
 .index-courses {
     padding-left: var(--page-padding);
     padding-right: var(--page-padding);
@@ -659,12 +660,18 @@ body {
     color: var(--primary-color);
 }
 
+.index-course-card-description {
+    line-height: 2rem;
+    font-size: 15px;
+}
+
 .index-course-card-container{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 20px;
     z-index: 1;
+    padding-bottom: 10%;
 }
 
 .index-course-card {
@@ -673,12 +680,19 @@ body {
     overflow: visible;
     padding-left: var(--card-padding);
     padding-right: var(--card-padding);
+    margin-top: 5%;
+    transition: 0.5s ease-in-out;
+}
+
+.index-course-card hr {
+    margin-top: 3%;
+    margin-bottom: 3%;
 }
 
 .index-course-card>img {
     transform: translateY(-15%);
     margin-bottom: 0;
-    /* width: 100%; */
+    width: 100%;
 }
 
 .index-course-card-explain {
@@ -687,7 +701,7 @@ body {
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
-    margin-top: 0px;
+    margin-top: -20px;
 }
 
 .index-course-card-explain .first {
@@ -718,32 +732,312 @@ body {
     font-size: 24px;
     color: var(--secondary-color);
     font-weight: 600;
+    margin-top: 3%;
+    margin-bottom: 3%;
 }
 
 .index-course-card-bottom {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    flex-wrap: nowrap;
     width: 100%;
+    padding-top: 2%;
+    padding-bottom: 5%;
+    margin-bottom: 3%;
+    height: 10%;
 }
 
 .index-course-card-bottom .first {
-    outline: 1px solid red;
-    width: auto;
+    display: flex;
+    width: 50%;
 }
 .index-course-card-bottom .first img {
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
 }
 
 .index-course-card-bottom .first .descript-first {
     display: flex;
     flex-direction: column;
+    margin-left: 3%;
 }
 
 .index-course-card-bottom .first .descript-first h4 {
     color: var(--secondary-color);
-    font-size: 18px;
+    font-size: 14px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
+
+.index-course-card-bottom .first .descript-first p {
+    margin-top: 10px;
+}
+
+.index-course-card-bottom .second {
+    background: var(--primary-color);
+    color: white;
+    display: inline-block;
+    padding: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+.index-course-card-bottom .second:hover {
+    background-color: var(--secondary-color);
+    transition: 0.5s ease-in-out;
+}
+
+.index-course-card-bottom-arrow{
+    vertical-align: middle;
+}
+
+.index-course-card:hover {
+    transform: translateY(-2%);
+    transition: 0.5s ease-in-out;
+}
+/*                      End Course                                */
+
+/*                      Start Gallery                                */
+.index-gallery {
+    padding-left: var(--page-padding);
+    padding-right: var(--page-padding);
+}
+
+.index-gallery-title {
+    padding-top: 10%;
+    text-align: center;
+    font-size: 18px;
+    font-family: var(--barlow-bold);
+    font-weight: 500;
+    color: var(--primary-color);
+}
+
+.index-gallery-subtitle {
+    font-size: 48px;
+    margin-top: 1%;
+    text-align: center;
+    font-family: var(--barlow-bold);
+    margin-bottom: 5%;
+    color: var(--secondary-color);
+}
+
+.index-gallery-subtitle-primary {
+    color: var(--primary-color);
+}
+
+.index-gallery-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 0px;
+    z-index: 1;
+    padding-bottom: 10%;
+}
+
+.index-gallery-card {
+    flex: 1 1 calc(35% - var(--page-padding)); /* 3 per row */
+    background: white;
+    overflow: visible;
+    margin: 10px;
+    width: 100%;
+    position: relative;
+}
+
+.index-gallery-card img {
+    width: 100%;
+}
+
+.index-gallery-card-overlay {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  right: 0;
+  background-color: rgb(232, 29, 79, 0.7);
+  overflow: hidden;
+  width: 90%;
+  height: 90%;
+  transform: scaleY(0);
+  transition: 0.3s ease-in-out;
+}
+
+.index-gallery-card:hover .index-gallery-card-overlay {
+    transform: scaleY(1);
+    transition: 0.5s ease-in-out;
+}
+
+.index-gallery-plus-sign {
+    color: white;
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+@keyframes fadeInUpG {
+  0% {
+    color: white;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    opacity: 0;
+  }
+  100% {
+    color: white;
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /* transform: translateY(-50%, -50%); */
+    opacity: 1;
+  }
+}
+.index-gallery-card:hover .index-gallery-plus-sign {
+    animation: 1.5s fadeInUpG;
+}
+/*                      End Gallery                                */
+
+/*                      Start Counter                               */
+.index-counter {
+    position: relative;
+    width: 100%;
+    /* height: 300px; */
+    background-image: url('../images/index-images-shapes/index-image-counter.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top;
+}
+
+.index-counter-info {
+    /* height: 100%; */
+    background: rgb(232, 29, 79, 0.8);
+    padding: var(--page-padding) calc(var(--page-padding) * 2) var(--page-padding) calc(var(--page-padding) * 2);
+    display: flex;
+    justify-content: space-between;
+    /* padding-right: var(--page-padding); */
+    /* top: 0;
+    left: 0; */
+}
+
+.index-counter-card{
+    text-align: center;
+}
+
+.index-counter-image {
+    width: 120px;
+    height: 120px;
+    background: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20%;
+}
+
+.index-counter-image img {
+    width: 60px;
+}
+
+.index-counter-title {
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+}
+
+.index-counter-subtitle {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+}
+/*                      End Counter                                 */
+
+/*                      Start Team                                  */
+.index-team {
+    padding-left: var(--page-padding);
+    padding-right: var(--page-padding);
+    margin-top: 10%;
+}
+
+.index-team-title {
+    font-size: 18px;
+    text-align: center;
+    color: var(--primary-color);
+    font-family: var(--barlow-bold);
+    font-weight: 300;
+}
+
+.index-team-subtitle {
+    font-size: 48px;
+    font-weight: 400;
+    text-align: center;
+    font-family: var(--barlow-bold);
+    color: var(--secondary-color);
+    margin-bottom: 5%;
+}
+
+.index-team-subtitle-primary {
+    color: var(--primary-color);
+}
+
+.index-team-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    z-index: 1;
+}
+
+.index-team-card {
+    flex: 1 1 calc(25% - var(--page-padding)); /* 4 per row */
+    overflow: visible;
+}
+
+.index-team-card>img {
+    width: 100%;
+}
+
+.index-team-card-bottom {
+    width: 90%;
+    height: 20%;
+    background: white;
+    margin-left: calc(var(--card-padding) * 2.5);
+    box-shadow: 5px 5px 15px gray;
+    transform: translateY(-70%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 3%;
+    align-items: center;
+}
+
+.index-team-card-bottom-col {
+    display: flex;
+    flex-direction: column;
+    padding-left: 3%;
+}
+
+.index-team-card-bottom-name {
+    font-size: 22px;
+    color: var(--secondary-color);
+    font-weight: bold;
+}
+
+.index-team-card-bottom-position {
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+.index-team-card-bottom-share {
+    padding-right: 6%;
+}
+
+.index-team-card-bottom-icon {
+    
+}
+/*                      End Team                                    */
 
 @media screen and (max-width: 881px) {
     #header .header-top {
