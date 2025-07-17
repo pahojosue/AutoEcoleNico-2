@@ -1586,6 +1586,14 @@ footer{
     .index-explain .index-card {
         flex: 80%;
     }
+
+    .index-left-about {
+        flex: 1 1 100%;
+    }
+
+    .index-right-about {
+        flex: 1 1 100%;
+    }
 }
 
 @media screen and (max-width: 918px) {
