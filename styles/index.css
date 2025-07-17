@@ -1105,10 +1105,217 @@ body {
 }
 /*                      End Team                                    */
 
+/*                      Start Why Choose Us                         */
+.choose-us {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    margin-top: 5%;
+}
 
+.left-choose-us {
+    flex: 1 1 50%;
+    width: 100%;
+    background: var(--secondary-color);
+    padding-top: 4%;
+}
 
+.inner-left-choose-us {
+    /* width: 100%; */
+    padding-left: calc(var(--page-padding) *2);
+    padding-right: calc(var(--page-padding) * 2);
+}
 
+.choose-us-title {
+    font-size: 18px;
+    font-family: var(--barlow-bold);
+    font-weight: 300;
+    color: white;
+    text-transform: uppercase;
+}
 
+.choose-us-subtitle {
+    font-size: 35px;
+    color: white;
+    font-family: var(--barlow-bold);
+}
+.choose-us-subtitle-primary {
+    color: var(--primary-color);
+}
+
+.choose-us-description {
+    color: white;
+    line-height: 2rem;
+}
+
+.choose-us-explain {
+    padding-top: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.choose-us-explain .icons {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.choose-us-explain .icons .image img{
+    width: 40px;
+    height: 40px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 50%;
+    overflow: visible;
+}
+
+.choose-us-explain .icons .icons-text {
+    line-height: 2rem;
+}
+
+.choose-us-explain .icons .title {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+}
+
+.choose-us-explain .icons .subtitle {
+    color: white;
+    font-size: 14px;
+}
+
+.right-choose-us {
+    flex: 1 1 50%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.right-choose-us img {
+    height: 100%;
+}
+/*                      End Why Choose Us                           */
+
+/*                      Start Pricing                               */
+.index-pricing {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.index-pricing-title {
+    text-align: center;
+    font-size: 18px;
+    font-family: var(--barlow-bold);
+    font-weight: 300;
+    text-transform: uppercase;
+    color: var(--primary-color);
+}
+
+.index-pricing-subtitle {
+    font-size: 45px;
+    font-family: var(--barlow-bold);
+    color: var(--secondary-color);
+    text-align: center;
+}
+.index-pricing-subtitle-primary {
+    color: var(--primary-color);
+}
+
+.index-pricing-card-container {
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    padding-left: var(--page-padding);
+    padding-right: var(--page-padding);
+}
+
+.index-pricing-card {
+    flex: 1 1 calc(33.33% - var(--page-padding));
+    box-shadow: 5px 5px 15px gray;
+    padding-left: 1%;
+    padding-right: 1%;
+    text-align: center;
+}
+
+.index-pricing-card-image {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+}
+.index-pricing-card-image img{
+    width: 100%;
+    z-index: -1;
+}
+.index-pricing-card-type {
+    position: absolute;
+    top: 0;
+    background: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.index-pricing-card-price {
+    border: 3px solid var(--primary-color);
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+    box-shadow: 5px 5px 15px gray;
+    color: var(--primary-color);
+    padding: 30px;
+    transform: translateY(-50%);
+    background: white;
+}
+
+.index-pricing-card-price .price {
+    font-size: 30px;
+    font-family: var(--barlow-bold);
+}
+
+.index-pricing-card-price .text {
+    font-size: 10px;
+    font-family: var(--barlow-bold);
+}
+
+.index-pricing-card-list {
+    margin-top: -5%;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 3rem;
+}
+
+.index-pricing-card-button {
+    display: inline-block;
+    margin-top: 3%;
+    margin-bottom: 10%;
+    background: var(--primary-color);
+    color: white;
+    font-family: var(--barlow-bold);
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+.index-pricing-arrow-right {
+    height: 35px;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+.index-pricing-card-button:hover {
+    background: var(--secondary-color);
+    transition: 0.5s ease-in-out;
+}
+/*                      End Pricing                                 */
 
 /*                                      Testimonials                        */
 .prim{
