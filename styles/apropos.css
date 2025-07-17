@@ -16,15 +16,10 @@
 :root{
     --primary-color: #E81D4F;
     --secondary-color: #041E37;
-<<<<<<< HEAD
-
-    
-=======
     --transparent-background: rgba(255, 255, 255, 0.1);
     --page-padding: 6%;
     --card-padding: 2%;
     --barlow-bold: 'Barlow-bold', sans-serif;
->>>>>>> 554cc4180d831f42619d3a8944a9a24c66b745dc
 }
 
 body {
@@ -518,22 +513,26 @@ footer{
 .about-section {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   margin-bottom: 6rem;
   line-height: 1.5rem;
-  padding-left: 4rem;
+  padding-left: var(--page-padding);
+  padding-right: var(--page-padding);
   margin-top: 4rem;
   }
   .about-container {
-    max-width: 600px;
+    /* max-width: 600px; */
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     position: relative;
     width: 100%;
+    flex: 1 1 calc(50% - var(--page-padding));
   }
   .about-text {
-    flex: 1;
-    margin-left: -6rem;
+    flex: 1 1 100%;
+    margin-left: 1%;
+    /* margin-left: -6rem; */
   }
   .about-text P{
     line-height: 1.8rem ;
@@ -547,13 +546,13 @@ footer{
   }
 
   .about-image {
-    flex: 1;
+    flex: 1 1 calc(50% - var(--page-padding));
     max-width: 50%;
     height: 500px;
   }
   .about-image img {
     max-width: 100%;
-    max-width: 600px;
+    /* max-width: 600px; */
     position: relative;
     width: 100%;
     
@@ -692,11 +691,12 @@ footer{
 
   
   .teams-section {
-    padding: 4rem 1rem;
+    padding: 4rem var(--page-padding) 4rem var(--page-padding);
     display: flex;
     align-items: center;
     margin-bottom: 6rem;
     line-height: 1.5rem;
+    width: 100%;
  
   }
   
@@ -704,17 +704,19 @@ footer{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 2rem;
+    gap: 20px;
+    padding: 4rem var(--page-padding) 4rem var(--page-padding);
   }
   
   .team-card {
-    max-width: 300px;
+    /* max-width: 300px; */
+    flex: 1 1 calc(25% - var(--page-padding));
     background: #fff;
     overflow: hidden;
     position: relative;
     box-shadow: 8px 8px 10px rgba(0,0,0,0.1);
     transition: transform 0.3s ease;
-    width: 100%;
+
   }
   
   .team-card:hover {
