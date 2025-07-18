@@ -16,15 +16,10 @@
 :root{
     --primary-color: #E81D4F;
     --secondary-color: #041E37;
-<<<<<<< HEAD
-
-    
-=======
     --transparent-background: rgba(255, 255, 255, 0.1);
     --page-padding: 6%;
     --card-padding: 2%;
     --barlow-bold: 'Barlow-bold', sans-serif;
->>>>>>> 554cc4180d831f42619d3a8944a9a24c66b745dc
 }
 
 body {
@@ -450,8 +445,7 @@ footer{
 
   
   h1, h3, h4, h5,h6 {
-    font-family: 'Barlow', sans-serif;
-    font-weight: bold;
+    font-family: var(--barlow-bold);
     font-size: 1.6rem;
     text-align: center;
     
