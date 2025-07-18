@@ -658,8 +658,9 @@ body {
     overflow: visible;
     padding-left: var(--card-padding);
     padding-right: var(--card-padding);
-    margin-top: 5%;
+    margin-top: 10%;
     transition: 0.5s ease-in-out;
+    position: relative;
 }
 
 .index-course-card hr {
@@ -668,9 +669,13 @@ body {
 }
 
 .index-course-card>img {
-    transform: translateY(-15%);
-    margin-bottom: 0;
-    width: 100%;
+    position: absolute;
+    top: -15%;
+    /* margin-bottom: 0; */
+    width: calc(100% - calc(var(--card-padding) * 6));
+    height: 40%;
+    overflow: hidden;
+    object-fit: cover;
 }
 
 .index-course-card-explain {
@@ -679,7 +684,7 @@ body {
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
-    margin-top: -20px;
+    margin-top: 40%;
 }
 
 .index-course-card-explain .first {
@@ -1735,6 +1740,10 @@ footer{
     .index-course-card {
         flex: 1 1 calc(50% - var(--page-padding));
     }
+
+    .index-course-card img {
+        width: calc(100% - calc(var(--card-padding) * 4));
+    }
 }
 
 @media screen and (max-width: 992px) {
@@ -2244,6 +2253,11 @@ footer{
     }
     .index-course-card {
         flex: 100%;
+        margin-top: 15%;
+    }
+
+    .index-course-card img {
+        width: calc(100% - calc(var(--card-padding) * 2));
     }
 }
 
