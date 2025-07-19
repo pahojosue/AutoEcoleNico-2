@@ -16,7 +16,7 @@ fetch('details.json')
     document.getElementById('image-principale').src = data.image_principale;
 
     // Titre principal et paragraphes
-    document.getElementById('titre1').innerText = data.titre;
+    document.getElementById('titre1').innerText = data.titre1;
     document.getElementById('para1').innerText = data.para1;
     document.getElementById('para2').innerText = data.para2;
 

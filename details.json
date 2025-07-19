@@ -1,177 +1,177 @@
 {
     "1": {
         "image_principale": "images/img5.jpg",
-        "titre1": "Titre pour Lien 1",
-        "para1": "Premier paragraphe descriptif pour la page 1.",
-        "para2": "Deuxième paragraphe avec un contenu spécifique pour la page 1.",
+        "titre1": "Cours de Conduite Complet",
+        "para1": "Le programme 'Apprenez à conduire en douceur' vous offre une formation complète et progressive qui vous prépare efficacement à la conduite autonome. Dès le premier jour, nous mettons l’accent sur l’acquisition de bonnes habitudes de conduite afin de garantir une progression naturelle, sans stress ni précipitation. Nos cours sont conçus pour vous familiariser avec toutes les situations de conduite courantes, des routes de quartier aux grands axes routiers, en toute sérénité.",
+        "para2": "Grâce à une pédagogie personnalisée, vous apprendrez à comprendre et à anticiper le comportement des autres usagers de la route. L'objectif est de développer votre vigilance tout en maintenant une conduite fluide et maîtrisée. Que vous soyez novice ou que vous ayez déjà quelques notions, ce cours vous permettra de consolider vos bases et d’évoluer rapidement avec des exercices pratiques adaptés à votre niveau.",
         "image1": "images/img5.jpg",
         "image2": "images/img5.jpg",
-        "para3": "Paragraphe avant tableau pour page 1.",
-        "titre2": "Titre tableau page 1",
+        "para3": "Après chaque séance, vous bénéficierez d’un suivi individuel, avec des conseils ciblés pour corriger vos éventuelles erreurs et améliorer vos réflexes. Nos formateurs veillent à instaurer un climat de confiance et de respect, afin que chaque élève prenne plaisir à apprendre et gagne progressivement en assurance derrière le volant. À la fin de la formation, vous serez capable de conduire en toute autonomie, en respectant scrupuleusement les règles de circulation.",
+        "titre2": "Informations sur le Cours",
         "tableau": [
-            {"nom": "Nom A", "valeur": "Valeur A"},
-            {"nom": "Nom B", "valeur": "Valeur B"},
-            {"nom": "Nom C", "valeur": "Valeur C"},
-            {"nom": "Nom D", "valeur": "Valeur D"},
-            {"nom": "Nom E", "valeur": "Valeur E"},
-            {"nom": "Nom F", "valeur": "Valeur F"}
+            {"nom": "Niveau du cours", "valeur": "Débutant à intermédiaire"},
+            {"nom": "Date de début", "valeur": "Tous les lundis"},
+            {"nom": "Durée du cours", "valeur": "4 semaines (35 heures)"},
+            {"nom": "Support pédagogique", "valeur": "Livret, vidéos, quiz en ligne"},
+            {"nom": "Horaires", "valeur": "10h-12h"},
+            {"nom": "Lieu", "valeur": "Auto-école Nico, 123 Rue de la Conduite, 75000 bonamoussadi"}
         ],
-        "titre3": "Titre avant liste page 1",
+        "titre3": "Avantages du Cours",
         "para4": "Paragraphe avant liste pour page 1.",
         "liste": [
-            "Premier élément de la liste",
-            "Deuxième élément important",
-            "Troisième élément intéressant",
-            "Quatrième information",
-            "Cinquième élément"
+            "Formation progressive qui s’adapte à votre rythme d’apprentissage, idéale pour les personnes anxieuses au volant",
+            "Instructeurs patients et attentifs, avec des techniques pédagogiques centrées sur la confiance en soi",
+            "Flexibilité totale avec des créneaux disponibles en journée, soirée et week-end",
+            "Matériel pédagogique moderne et interactif pour mieux assimiler les notions théoriques et pratiques",
+            "Suivi individualisé après chaque session pour un progrès constant et mesurable"
         ],
-        "titre4": "Dernier titre page 1",
-        "para5": "Dernier paragraphe final pour la page 1."
+        "titre4": "Pourquoi Choisir Notre Cours ?",
+        "para5": "Avec notre approche unique, vous apprendrez à conduire sereinement, sans pression ni appréhension. Nous mettons l’accent sur la bienveillance, l’écoute et la progression personnalisée, afin que chaque élève se sente valorisé et accompagné à chaque étape de son apprentissage. Notre réputation repose sur la qualité de notre encadrement et sur un taux de réussite exceptionnel. Faire le choix de notre cours, c’est s’assurer une formation efficace, agréable, et l’assurance de devenir un conducteur responsable et confiant, prêt à affronter toutes les situations de la route."
     },
 
     "2": {
         "image_principale": "images/img6.jpg",
-        "titre1": "Titre pour Lien 2",
-        "para1": "Premier paragraphe descriptif pour la page 2.",
-        "para2": "Deuxième paragraphe avec un contenu spécifique pour la page 2.",
+        "titre1": "Cours de Conduite Complet",
+        "para1": "Notre 'cours de conduite pour adulte' est pensé pour les personnes qui souhaitent apprendre à conduire ou reprendre confiance derrière le volant, peu importe leur âge. Que vous soyez totalement débutant ou que vous ayez abandonné la conduite depuis plusieurs années, ce programme vous accompagne à votre rythme avec une méthode adaptée aux adultes.",
+        "para2": "Nous mettons un point d’honneur à proposer un encadrement respectueux, patient et rassurant pour permettre à chaque adulte de progresser sans stress. À travers des cours théoriques accessibles et des séances pratiques variées, vous serez préparé aux différentes situations de conduite de la vie réelle.",
         "image1": "images/img6.jpg",
         "image2": "images/img6.jpg",
-        "para3": "Paragraphe avant tableau pour page 2.",
-        "titre2": "Titre tableau page 2",
+        "para3": "Le programme inclut également un travail sur la gestion du stress au volant, la concentration et les bons réflexes pour adopter une conduite sereine. À la fin de la formation, vous serez autonome et parfaitement à l’aise pour passer votre examen ou reprendre la conduite quotidienne.",
+        "titre2": "Informations sur le Cours",
         "tableau": [
-            {"nom": "Nom G", "valeur": "Valeur G"},
-            {"nom": "Nom H", "valeur": "Valeur H"},
-            {"nom": "Nom I", "valeur": "Valeur I"},
-            {"nom": "Nom J", "valeur": "Valeur J"},
-            {"nom": "Nom K", "valeur": "Valeur K"},
-            {"nom": "Nom L", "valeur": "Valeur L"}
+            {"nom": "Niveau du cours", "valeur": "Débutant et remise à niveau pour adultes"},
+            {"nom": "Date de début", "valeur": "Sessions chaque lundi"},
+            {"nom": "Durée du cours", "valeur": "5 semaines (40 heures)"},
+            {"nom": "Support pédagogique", "valeur": "Livret spécial adultes, vidéos, simulations pratiques"},
+            {"nom": "Horaires", "valeur": "12h-14h"},
+            {"nom": "Lieu", "valeur": "Auto-école Nico, 123 Rue de la Conduite, 75000 bonamoussadi"}
         ],
-        "titre3": "Titre avant liste page 2",
+        "titre3": "Avantages du Cours",
         "para4": "Paragraphe avant liste pour page 2.",
         "liste": [
-            "Premier élément de la liste 2",
-            "Deuxième élément page 2",
-            "Troisième élément page 2",
-            "Quatrième élément page 2",
-            "Cinquième élément page 2"
+            "Formation conçue pour adultes, sans jugement, avec progression personnalisée.",
+            "Méthode pédagogique qui valorise la confiance et le respect du rythme de chacun.",
+            "Horaires flexibles pour s’adapter aux emplois du temps professionnels.",
+            "Instructeurs expérimentés avec une approche patiente et bienveillante.",
+            "Préparation efficace pour une conduite sûre, fluide et autonome."
         ],
-        "titre4": "Dernier titre page 2",
-        "para5": "Dernier paragraphe final pour la page 2."
+        "titre4": "Pourquoi Choisir Notre Cours ?",
+        "para5": "Notre 'cours de conduite pour adulte' est idéal pour ceux qui recherchent un apprentissage de qualité, dans une ambiance calme et respectueuse. Vous bénéficiez d’une approche 100% adulte, de supports modernes et d’un suivi individuel attentif, pour faire de votre retour ou apprentissage à la conduite une expérience positive et réussie."
     },
     "3": {
         "image_principale": "images/img3.jpg",
-        "titre1": "Titre pour Lien 1",
-        "para1": "Premier paragraphe descriptif pour la page 1.",
-        "para2": "Deuxième paragraphe avec un contenu spécifique pour la page 1.",
+        "titre1": "Cours de Conduite Complet",
+        "para1": "Le programme 'leçons pour jeunes' est spécialement conçu pour les adolescents et jeunes adultes qui souhaitent acquérir les bases solides de la conduite dès le départ. Nous proposons une approche dynamique et motivante qui répond aux attentes des jeunes, tout en mettant l’accent sur la sécurité et la responsabilité au volant.",
+        "para2": "Les séances théoriques sont simplifiées et illustrées, et les leçons pratiques sont encadrées par des formateurs jeunes, pédagogues et à l’écoute, qui comprennent les besoins de la nouvelle génération de conducteurs.",
         "image1": "images/img3.jpg",
         "image2": "images/img3.jpg",
-        "para3": "Paragraphe avant tableau pour page 1.",
-        "titre2": "Titre tableau page 1",
+        "para3": "Tout est mis en place pour que les jeunes apprennent rapidement tout en développant une conduite responsable et sécurisée. L’objectif est de former des conducteurs confiants, autonomes et respectueux du code de la route dès leurs premières années de conduite.",
+        "titre2": "Informations sur le Cours",
         "tableau": [
-            {"nom": "Nom A", "valeur": "Valeur A"},
-            {"nom": "Nom B", "valeur": "Valeur B"},
-            {"nom": "Nom C", "valeur": "Valeur C"},
-            {"nom": "Nom D", "valeur": "Valeur D"},
-            {"nom": "Nom E", "valeur": "Valeur E"},
-            {"nom": "Nom F", "valeur": "Valeur F"}
+            {"nom": "Niveau du cours", "valeur": "Débutant spécial jeunes conducteurs"},
+            {"nom": "Date de début", "valeur": "Chaque début de semaine (lundi)"},
+            {"nom": "Durée du cours", "valeur": "3 semaines (30 heures)"},
+            {"nom": "Support pédagogique", "valeur": "Vidéos interactives, applications mobiles, qui"},
+            {"nom": "Horaires", "valeur": "14h-16h"},
+            {"nom": "Lieu", "valeur": "Auto-école Nico, 123 Rue de la Conduite, 75000 bonamoussadi"}
         ],
-        "titre3": "Titre avant liste page 1",
+        "titre3": "Avantages du Cours",
         "para4": "Paragraphe avant liste pour page 1.",
         "liste": [
-            "Premier élément de la liste",
-            "Deuxième élément important",
-            "Troisième élément intéressant",
-            "Quatrième information",
-            "Cinquième élément"
+            "Formation dynamique adaptée au mode d’apprentissage des jeunes.",
+            "Utilisation d’outils modernes : vidéos, quiz, simulations sur mobile.",
+            "Instructeurs jeunes, patients et motivants.",
+            "Flexibilité horaire : possibilité de cours après les études ou pendant les vacances.",
+            "Formation axée sur la prévention routière et la prise de responsabilité dès le début."
         ],
-        "titre4": "Dernier titre page 1",
-        "para5": "Dernier paragraphe final pour la page 1."
+        "titre4": "Pourquoi Choisir Notre Cours ?",
+        "para5": "Le 'cours pour jeunes' offre un cadre d’apprentissage moderne, motivant et rassurant. Avec des supports numériques et un encadrement bienveillant, les jeunes acquièrent rapidement les bons réflexes et une solide confiance au volant. C’est le meilleur choix pour débuter la conduite dans des conditions adaptées à leur rythme et à leur mode de vie."
     },
     "4": {
         "image_principale": "images/img4.jpg",
-        "titre1": "Titre pour Lien 1",
-        "para1": "Premier paragraphe descriptif pour la page 1.",
-        "para2": "Deuxième paragraphe avec un contenu spécifique pour la page 1.",
+        "titre1": "Cours de Conduite Complet",
+        "para1": "Le 'cours de conduite sur autoroute' est dédié aux conducteurs qui souhaitent maîtriser la conduite sur voies rapides, autoroutes et grandes routes. Ce programme est idéal pour les personnes qui ont appris la conduite en ville mais qui manquent d’expérience sur autoroute ou qui souhaitent renforcer leur confiance sur ces trajets spécifiques.",
+        "para2": "Le cours met l’accent sur les règles essentielles de sécurité, la gestion de la vitesse, les distances de sécurité, ainsi que les comportements adaptés lors des dépassements, changements de voie et entrées/sorties d’autoroute.",
         "image1": "images/img4.jpg",
         "image2": "images/img4.jpg",
-        "para3": "Paragraphe avant tableau pour page 1.",
-        "titre2": "Titre tableau page 1",
+        "para3": "Grâce à des leçons pratiques sur autoroute accompagnées de moniteurs expérimentés, vous apprendrez à conduire avec fluidité et assurance sur les longues distances. Ce cours est aussi recommandé pour ceux qui prévoient de voyager régulièrement ou qui souhaitent améliorer leur aisance sur les trajets rapides.",
+        "titre2": "Informations sur le Cours",
         "tableau": [
-            {"nom": "Nom A", "valeur": "Valeur A"},
-            {"nom": "Nom B", "valeur": "Valeur B"},
-            {"nom": "Nom C", "valeur": "Valeur C"},
-            {"nom": "Nom D", "valeur": "Valeur D"},
-            {"nom": "Nom E", "valeur": "Valeur E"},
-            {"nom": "Nom F", "valeur": "Valeur F"}
+            {"nom": "Niveau du cours", "valeur": "Conducteurs ayant déjà les bases de conduite"},
+            {"nom": "Date de début", "valeur": "Sessions flexibles chaque semaine"},
+            {"nom": "Durée du cours", "valeur": "2 semaines (15 heures principalement sur autoroute)"},
+            {"nom": "Support pédagogique", "valeur": "Vidéos explicatives, briefing avant chaque session"},
+            {"nom": "Horaires", "valeur": "16h-18h"},
+            {"nom": "Lieu", "valeur": "Auto-école Nico, 123 Rue de la Conduite, 75000 bonamoussadi"}
         ],
-        "titre3": "Titre avant liste page 1",
+        "titre3": "Avantages du Cours",
         "para4": "Paragraphe avant liste pour page 1.",
         "liste": [
-            "Premier élément de la liste",
-            "Deuxième élément important",
-            "Troisième élément intéressant",
-            "Quatrième information",
-            "Cinquième élément"
+            "Apprentissage pratique sur autoroute avec moniteurs spécialisés.",
+            "Maîtrise des techniques de dépassement et d’insertion sur voie rapide.",
+            "Conseils pratiques pour la conduite longue distance et l’économie de carburant.",
+            "Gestion du stress et renforcement de la vigilance sur les trajets rapides.",
+            "Formation idéale pour préparer les voyages ou la conduite en dehors de la ville."
         ],
-        "titre4": "Dernier titre page 1",
-        "para5": "Dernier paragraphe final pour la page 1."
+        "titre4": "Pourquoi Choisir Notre Cours ?",
+        "para5": "Avec notre 'cours de conduite sur autoroute', vous accédez à une formation ciblée, encadrée par des professionnels expérimentés, pour gagner rapidement en confort et en sécurité sur les grands axes. Nos séances sont personnalisées selon votre niveau et vos objectifs, afin de vous permettre de conduire sereinement sur tout type d’itinéraire."
     },
     "5": {
         "image_principale": "images/moniteur.jpg",
-        "titre1": "Titre pour Lien 1",
-        "para1": "Premier paragraphe descriptif pour la page 1.",
-        "para2": "Deuxième paragraphe avec un contenu spécifique pour la page 1.",
+        "titre1": "Cours de Conduite Complet",
+        "para1": "Avec notre 'cours de conduite sur autoroute', vous accédez à une formation ciblée, encadrée par des professionnels expérimentés, pour gagner rapidement en confort et en sécurité sur les grands axes. Nos séances sont personnalisées selon votre niveau et vos objectifs, afin de vous permettre de conduire sereinement sur tout type d’itinéraire.",
+        "para2": "Le programme vous permet de comprendre en détail le code de la route spécifique du pays, de maîtriser la signalisation, les limitations de vitesse et les priorités, tout en consolidant votre pratique de conduite dans un nouvel environnement routier.",
         "image1": "images/moniteur.jpg",
         "image2": "images/moniteur.jpg",
-        "para3": "Paragraphe avant tableau pour page 1.",
-        "titre2": "Titre tableau page 1",
+        "para3": "Grâce à des moniteurs expérimentés et multilingues, vous bénéficierez d’un accompagnement personnalisé pour vous aider à franchir le cap en douceur, obtenir votre permis local ou simplement gagner en confiance au volant dans votre nouveau pays.",
+        "titre2": "Informations sur le Cours",
         "tableau": [
-            {"nom": "Nom A", "valeur": "Valeur A"},
-            {"nom": "Nom B", "valeur": "Valeur B"},
-            {"nom": "Nom C", "valeur": "Valeur C"},
-            {"nom": "Nom D", "valeur": "Valeur D"},
-            {"nom": "Nom E", "valeur": "Valeur E"},
-            {"nom": "Nom F", "valeur": "Valeur F"}
+            {"nom": "Niveau du cours", "valeur": "Conducteurs titulaires d’un permis étranger"},
+            {"nom": "Date de début", "valeur": "Inscriptions ouvertes chaque semaine"},
+            {"nom": "Durée du cours", "valeur": "3 semaines (25 heures incluant théorie et pratique"},
+            {"nom": "Support pédagogique", "valeur": "Livret localisé, vidéos en plusieurs langues"},
+            {"nom": "Horaires", "valeur": "18h-20h"},
+            {"nom": "Lieu", "valeur": "Auto-école Nico, 123 Rue de la Conduite, 75000 bonamoussadi"}
         ],
-        "titre3": "Titre avant liste page 1",
+        "titre3": "Avantages du Cours",
         "para4": "Paragraphe avant liste pour page 1.",
         "liste": [
-            "Premier élément de la liste",
-            "Deuxième élément important",
-            "Troisième élément intéressant",
-            "Quatrième information",
-            "Cinquième élément"
+            "Adaptation rapide aux règles et particularités locales.",
+            "Instructeurs formés pour accompagner les conducteurs internationaux.",
+            "Supports pédagogiques accessibles en plusieurs langues.",
+            "Préparation idéale pour obtenir le permis local ou conduire en toute sécurité.",
+            " Flexibilité totale avec des horaires adaptés aux contraintes des expatriés et étudiants."
         ],
-        "titre4": "Dernier titre page 1",
-        "para5": "Dernier paragraphe final pour la page 1."
+        "titre4": "Pourquoi Choisir Notre Cours ?",
+        "para5": "Le 'cours pour conducteurs internationaux' est la solution idéale pour s’intégrer rapidement au réseau routier local. Vous serez formé par des professionnels qui connaissent les difficultés d’adaptation et qui vous accompagnent de manière bienveillante, afin de conduire sereinement et légalement dans votre nouveau pays."
     },
     "6": {
         "image_principale": "images/permis de conduire.jpg",
-        "titre1": "Titre pour Lien 1",
-        "para1": "Premier paragraphe descriptif pour la page 1.",
-        "para2": "Deuxième paragraphe avec un contenu spécifique pour la page 1.",
+        "titre1": "Cours de Conduite Complet",
+        "para1": "Notre 'cours de conduite en voiture automatique' est parfait pour ceux qui souhaitent apprendre à conduire sans se soucier des changements de vitesse manuels. Adapté aux débutants comme aux personnes en reconversion, ce programme vous permet d’acquérir rapidement les bons réflexes au volant d’une voiture automatique.",
+        "para2": "Ce type de formation est idéal pour ceux qui préfèrent la simplicité de conduite, les personnes ayant des difficultés avec l’embrayage, ou encore pour ceux qui souhaitent apprendre dans un environnement détendu et sans pression technique inutile.",
         "image1": "images/permis de conduire.jpg",
         "image2": "images/permis de conduire.jpg",
-        "para3": "Paragraphe avant tableau pour page 1.",
-        "titre2": "Titre tableau page 1",
+        "para3": "Avec l'accompagnement de nos moniteurs spécialisés, vous apprendrez à maîtriser parfaitement la conduite sur voiture automatique : démarrages en côte, stationnements, circulation en ville et sur autoroute, tout est inclus pour vous rendre autonome et confiant.",
+        "titre2": "Informations sur le Cours",
         "tableau": [
-            {"nom": "Nom A", "valeur": "Valeur A"},
-            {"nom": "Nom B", "valeur": "Valeur B"},
-            {"nom": "Nom C", "valeur": "Valeur C"},
-            {"nom": "Nom D", "valeur": "Valeur D"},
-            {"nom": "Nom E", "valeur": "Valeur E"},
-            {"nom": "Nom F", "valeur": "Valeur F"}
+            {"nom": "Niveau du cours", "valeur": "Débutant et reconversion sur voiture automatique"},
+            {"nom": "Date de début", "valeur": "Sessions chaque semaine, démarrage rapide"},
+            {"nom": "Durée du cours", "valeur": "3 semaines (30 heures)"},
+            {"nom": "Support pédagogique", "valeur": "Vidéos pratiques, livret d’apprentissage simplifié"},
+            {"nom": "Horaires", "valeur": "8h-10h"},
+            {"nom": "Lieu", "valeur": "Auto-école Nico, 123 Rue de la Conduite, 75000 bonamoussadi"}
         ],
-        "titre3": "Titre avant liste page 1",
+        "titre3": "Avantages du Cours",
         "para4": "Paragraphe avant liste pour page 1.",
         "liste": [
-            "Premier élément de la liste",
-            "Deuxième élément important",
-            "Troisième élément intéressant",
-            "Quatrième information",
-            "Cinquième élément"
+            "Formation rapide et accessible pour tous les âges.",
+            "Moins de stress au volant, idéal pour apprendre sereinement.",
+            "Apprentissage accéléré avec concentration sur la route, pas sur les vitesses.",
+            "Cours pratiques en ville, sur route rapide et autoroute.",
+            "Instructeurs patients et spécialisés dans la conduite automatique."
         ],
-        "titre4": "Dernier titre page 1",
-        "para5": "Dernier paragraphe final pour la page 1."
+        "titre4": "Pourquoi Choisir Notre Cours ?",
+        "para5": "Choisir notre 'cours de conduite en voiture automatique', c’est faire le choix d’une conduite simple, confortable et accessible. Grâce à un accompagnement complet et une approche pédagogique adaptée, vous apprendrez rapidement à conduire en toute sécurité, sans complexité technique et avec un maximum de confort."
     }
 }

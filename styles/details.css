@@ -480,6 +480,7 @@ h2{
   text-align: center;
   color: #fff;
 }
+
 main{
   padding: var(--page-padding);
   display: flex;
@@ -604,6 +605,9 @@ th, td {
     margin: 0;
     list-style: none;
 }
+.services{
+    color: #fff;
+}
 
 /* Quand l’écran est petit */
 @media (max-width: 1208px) {
@@ -614,6 +618,9 @@ th, td {
         width: 100%;
         height: 450px;
         justify-content: center;
+    }
+    .div-images-horizontales{
+        padding-right: var(--page-padding);
     }
 }
 
