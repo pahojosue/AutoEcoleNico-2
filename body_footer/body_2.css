@@ -43,12 +43,11 @@
 }
 
 .previs .regis{
-    background: #425668;
+    background: rgba(42, 65, 82, 0.9);
     height: 500px;
     width: 400px;
-    margin-left: 200px;
+    margin-left: 700px;
     text-align: center;
-    margin-left: 770px;
 }
 
 .previs .regis h1, .reg{
@@ -128,16 +127,16 @@
 
 .card{
     background-color: #fff;
-    width: 400px;
+    width: 450px;
     height: 300px;
     margin-top: 20px;
-    /* box-shadow: ; */
+    margin: 0rem 1rem 1rem 0;
 }
 
 .card .img_icon{
     display: flex;
     justify-content: space-between;
-    position: relative;
+    position: relative ;
 }
 
 .card .img_icon img{
@@ -145,16 +144,16 @@
     height: 80px;
     border-radius: 50%;
     border: 2.5px dashed var(--primary-color);
-    padding: 2px;
+    padding: 0px;
     position: absolute;
-    left: 300px;
-    top: -32px;
+    left: 310px;
+    top: -39px;
 }
 
 .img_icon .star {
     margin-top: 20px;
     color: var(--primary-color);
-    padding-left: var(--page-padding);
+    padding-left: 0px;
 }
 
 
@@ -261,6 +260,7 @@
 }
 
 .pcs .detl i{
+    color: var(--primary-color);
     margin-left: 16px;
 }
 
@@ -280,213 +280,39 @@
 .card_blog a i{
     margin-left: 5px;
 }
+/* =============================================================================================================================== */
+/* ================================================================================ */
 
+/* ==================================================================== */
 
-/* -------------responsive pour tablette------------- */
-@media screen and (max-width:768px) {
-    .prim{
-    background: #eff2f5;
-    padding: var(--page-padding);
-    text-align: center;
-}
+/* ----------------breakpoints for devices of 1024px */
 
-.prim h3, .titulo span{
-    color: var(--primary-color);
-}
+@media screen and (max-width:1024px){
 
-.titulo{
-    font-size: 2.4rem;
-}
-
-
-
-.slide{
-    /* background: #041E37; */
-    display: block;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    margin-top: 3.75rem;
-    padding-left: 11rem;
-}
-
-
-.card{
-    background-color: #fff;
-    width: 22rem;
-    height: 18.75;
-    margin-top: 1.5rem;
-    margin-bottom: 4rem;
-    /* box-shadow: ; */
-}
-
-.card .img_icon{
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-}
-
-.card .img_icon img{
-    width: 5rem;
-    height:5rem;
-    border-radius: 50%;
-    border: .15rem dashed var(--primary-color);
-    padding: .125rem;
-    position: absolute;
-    left: 16rem;
-    top: -32px;
-}
-
-.img_icon .star {
-    margin-top: 20px;
-    color: var(--primary-color);
-    padding-left: var(--page-padding);
-}
-
-
-.card  .text{
-    line-height: 1.9rem;
-    text-align: left;
-    padding: var(--page-padding);
-    margin-top: .7rem;
-}
-
-.text .prf{
-    display: flex;
-    justify-content: space-between;
-}
-
-.text .prf img{
-    width: .31;
-    height:.31;
-    margin-top: 0px;
-}
-
-
-
-
-/* secund */
-
-.secund{
-    background: url(./img/mb.jpg);
-    background-size: cover;
+    .hijo{
+    background: url(./img/05.jpg);
     background-repeat: no-repeat;
-    height: 31.25rem;
-    padding-top: 12.5rem;
+    background-size: cover;
     width: 100%;
 }
 
-.secund .say{
-    text-align: center;
-    line-height: 1.7;
-    font-size: 1rem;
-}
-
-
-.say .lorem{
-    margin-bottom: 3.12rem;
-    color: #fff;
-    margin-bottom: 4.5rem;
-}
-
-.say .direct-link {
-   width: 25rem;
-   height: 3.12rem;
-   padding: .62rem;
-   background: var(--primary-color);
-   color: #ffffff;
-   text-decoration: none;
-   font-size: .93rem;
-   font-weight: bolder;
-   text-transform: uppercase;
-}
-
-.say .direct-link i{
-    margin-left: .31rem;
-}
-
-
-/* tercera */
-.tercera{
-    background: var(--transparent-background);
-    padding: var(--page-padding);
-    text-align: center;
-}
-
-.int{
-    margin-top: 7rem;
-}
-
-.News_blog{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    margin-top: 6.25rem;
-}
-
-.tercera .card_blog{
-    width: 22.5rem;
-    height: 32.28rem;
-    background: var(--transparent-background);
-    text-align: left;
-    box-shadow: #989899 2px 0px 10px;
-    transition: .6s ease-in-out;
-    margin-top: 3rem;
-    margin-left: 11rem;
-}
-
-.tercera .card_blog:hover{
-    transform: translateY(-10px);
-}
-
-.pcs img{
-    width: 22.5rem;
-    height: 15.62rem;
-    border: .18rem double #ffffff;
-}
-
-.pcs .detl, .rate{
-    padding: 4%;
-    line-height: 1.3;
-}
-
-.pcs .detl i{
-    margin-left: 1rem;
-}
-
-.card_blog a {
-    margin-left: 4%;
-    margin-top: 4%;
-    padding: .62rem;
-    background: var(--primary-color);
-    background: var(--primary-color);
-    color: #fff;
-}
-.card_blog a:hover{
-    background: #fff;
-    background-color: var(--secondary-color);
-}
-
-.card_blog a i{
-    margin-left: .31rem;
-}
 
 
 
 
 /* ---------Formulaire---------- */
-
 .previs{
-    background: url(./img/06.jpg);
+    background: url(./img/02.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .previs .regis{
-    background: #425668;
-    height: 31.25rem;
-    width: 25rem;
+    background: rgba(42, 65, 82, 0.9);
+    height: 500px;
+    width: 400px;
+    margin-left: 700px;
     text-align: center;
-    margin-left: 12rem;
 }
 
 .previs .regis h1, .reg{
@@ -530,29 +356,18 @@
     color: var(--secondary-color);
 }
 
-
-
 /* ------------Formulaire------------ */
 
 
 
-}
 
 
 
-/* ==============responsive pour telephone========== */
 
-
-@media screen and (max-width:425px) {
-    .prim{
+.prim{
     background: #eff2f5;
     padding: var(--page-padding);
     text-align: center;
-    width: 100%;
-}
-
-.madre{
-    width: 100%;
 }
 
 .prim h3, .titulo span{
@@ -567,52 +382,50 @@
 
 .slide{
     /* background: #041E37; */
-    display: block;
-    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
     flex-wrap: nowrap;
-    margin-top: 3.75rem;
-    padding-left: 1.7rem;
+    margin-top: 6rem;
 }
 
 
 .card{
     background-color: #fff;
-    width: 22rem;
-    height: 18.75;
-    margin-top: 1.5rem;
-    margin-bottom: 4rem;
-    /* box-shadow: ; */
+    width: 450px;
+    height: 300px;
+    margin: 0rem 1rem 1rem 0;
 }
 
 .card .img_icon{
     display: flex;
     justify-content: space-between;
-    position: relative;
+    position: relative ;
 }
 
 .card .img_icon img{
-    width: 5rem;
-    height:5rem;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
-    border: .15rem dashed var(--primary-color);
-    padding: .125rem;
+    border: 2.5px dashed var(--primary-color);
+    padding: 0px;
     position: absolute;
-    left: 16rem;
-    top: -32px;
+    left:220px;
+    top: -43px;
 }
 
 .img_icon .star {
     margin-top: 20px;
     color: var(--primary-color);
-    padding-left: var(--page-padding);
+    padding-left: 0px;
 }
 
 
 .card  .text{
-    line-height: 1.9rem;
+    line-height: 2;
     text-align: left;
     padding: var(--page-padding);
-    margin-top: .7rem;
+    font-size: .94rem;
 }
 
 .text .prf{
@@ -621,8 +434,8 @@
 }
 
 .text .prf img{
-    width: .31;
-    height:.31;
+    width: 50px;
+    height: 50px;
     margin-top: 0px;
 }
 
@@ -635,38 +448,42 @@
     background: url(./img/mb.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 31.25rem;
-    padding-top: 12.5rem;
-    width: 100%;
+    height: 500px;
+    padding-top: 200px;
 }
 
 .secund .say{
     text-align: center;
-    line-height: 1.7;
-    font-size: 1rem;
+    line-height: 2;
 }
 
 
 .say .lorem{
-    margin-bottom: 3.12rem;
+    margin-bottom: 50px;
     color: #fff;
-    margin-bottom: 4.5rem;
 }
 
 .say .direct-link {
-   width: 25rem;
-   height: 3.12rem;
-   padding: .62rem;
+   width: 400px;
+   height: 50px;
+   padding: 10px;
    background: var(--primary-color);
    color: #ffffff;
    text-decoration: none;
-   font-size: .93rem;
+   font-size: 15px;
    font-weight: bolder;
    text-transform: uppercase;
+   transition: .5s;
 }
 
+.say .direct-link:hover{
+    background: #fff;
+    color: var(--primary-color);
+}
+
+
 .say .direct-link i{
-    margin-left: .31rem;
+    margin-left: 5px;
 }
 
 
@@ -677,26 +494,21 @@
     text-align: center;
 }
 
-.int{
-    margin-top: 7rem;
-}
-
 .News_blog{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin-top: 6.25rem;
+    margin-top: 100px;
 }
 
 .tercera .card_blog{
-    width: 22.5rem;
-    height: 32.28rem;
+    width: 360px;
+    height: 520px;
     background: var(--transparent-background);
     text-align: left;
     box-shadow: #989899 2px 0px 10px;
     transition: .6s ease-in-out;
-    margin-top: 3rem;
-    margin-left: 1.7rem;
+    margin-top: 2rem;
 }
 
 .tercera .card_blog:hover{
@@ -704,24 +516,24 @@
 }
 
 .pcs img{
-    width: 22.5rem;
-    height: 15.62rem;
-    border: .18rem double #ffffff;
+    width: 360px;
+    height: 250px;
+    border: 3px double #ffffff;
 }
 
 .pcs .detl, .rate{
     padding: 4%;
-    line-height: 1.3;
 }
 
 .pcs .detl i{
-    margin-left: 1rem;
+    color: var(--primary-color);
+    margin-left: 16px;
 }
 
 .card_blog a {
     margin-left: 4%;
     margin-top: 4%;
-    padding: .62rem;
+    padding: 10px;
     background: var(--primary-color);
     background: var(--primary-color);
     color: #fff;
@@ -732,14 +544,34 @@
 }
 
 .card_blog a i{
-    margin-left: .31rem;
+    margin-left: 5px;
 }
 
 
 
 
-/* ---------Formulaire---------- */
+}
 
+
+
+/* ============breakpoints=============== */
+
+
+@media screen and (max-width:768px) {
+    
+    
+    .hijo{
+    background: url(./img/05.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+
+
+
+
+/* ---------Formulaire---------- */
 .previs{
     background: url(./img/06.jpg);
     background-repeat: no-repeat;
@@ -747,11 +579,11 @@
 }
 
 .previs .regis{
-    background: #425668;
-    height: 31.25rem;
-    width: 25rem;
+    background: rgba(42, 65, 82, 0.9);
+    height: 100%;
+    width: 50%;
+    margin-left: 25%;
     text-align: center;
-    margin-left: 1rem;
 }
 
 .previs .regis h1, .reg{
@@ -764,14 +596,263 @@
     padding-top: 20px;
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    grid-gap: 20px;
-    padding: 10px;
+    padding: 6%;
 }
 
 .regis .form-regis .grid input{
     height: 50px;
     border: none;
 }
+
+
+.regis .form-regis textarea{
+    width: 88%;
+    height: 80px;
+    margin-left: 1%;
+    border: none;
+}
+
+.regis .form-regis .regist{
+    background: var(--primary-color);
+    padding: 4%;
+    color: #fff;
+    font-weight: bold;
+    transition: 0.5s;
+    margin-bottom: 20%;
+}
+
+.regis .form-regis .regist:hover{
+    background: #fff;
+    color: var(--secondary-color);
+}
+
+/* ------------Formulaire------------ */
+
+
+.prim{
+    background: #eff2f5;
+    padding: var(--page-padding);
+    text-align: center;
+}
+
+.prim h3, .titulo span{
+    color: var(--primary-color);
+}
+
+.titulo{
+    font-size: 2.4rem;
+}
+
+
+
+.slide{
+    display: block;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-top: 6%;
+    width: 100%;
+    padding-left: 10%;
+}
+
+
+.card{
+    background-color: #fff;
+    width: 90%;
+    height: 300px;
+    margin: 5rem 3rem 3rem 0;
+}
+
+.card .img_icon{
+    display: block;
+    flex-direction: column;
+    position: relative ;
+    padding: 4%;
+}
+
+.card .img_icon img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2.5px dashed var(--primary-color);
+    padding: 0px;
+    position: absolute;
+    left: 250px;
+    top: -39px;
+}
+
+.img_icon .star {
+    margin-top: 20px;
+    color: var(--primary-color);
+    padding-left: 0px;
+}
+
+
+.card  .text{
+    line-height: 2;
+    text-align: left;
+    padding: var(--page-padding);
+}
+
+.text .prf{
+    display: flex;
+    justify-content: space-between;
+}
+
+.text .prf img{
+    width: 30px;
+    height: 30px;
+}
+
+
+
+
+/* secund */
+
+.secund{
+    background: url(./img/mb.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    padding-top: 200px;
+}
+
+.secund .say{
+    text-align: center;
+    line-height: 2;
+}
+
+
+.say .lorem{
+    margin-bottom: 50px;
+    color: #fff;
+}
+
+.say .direct-link {
+   width: 400px;
+   height: 50px;
+   padding: 10px;
+   background: var(--primary-color);
+   color: #ffffff;
+   text-decoration: none;
+   font-size: 15px;
+   font-weight: bolder;
+   text-transform: uppercase;
+   transition: .5s;
+}
+
+.say .direct-link:hover{
+    background: #fff;
+    color: var(--primary-color);
+}
+
+
+.say .direct-link i{
+    margin-left: 5px;
+}
+
+
+/* tercera */
+.tercera{
+    background: var(--transparent-background);
+    padding: var(--page-padding);
+    text-align: center;
+    padding-right: 4rem;
+}
+
+.News_blog{
+    display: block;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+.tercera .card_blog{
+    width: 480px;
+    height: 520px;
+    background: var(--transparent-background);
+    text-align: left;
+    box-shadow: #989899 2px 0px 10px;
+    transition: .6s ease-in-out;
+    margin-left: 18%;
+    margin-top: 5%;
+}
+
+.tercera .card_blog:hover{
+    transform: translateY(-10px);
+}
+
+.pcs img{
+    width: 480px;
+    height: 250px;
+    border: 3px double #ffffff;
+}
+
+.pcs .detl, .rate{
+    padding: 4%;
+}
+
+.pcs .detl i{
+    color: var(--primary-color);
+    margin-left: 16px;
+}
+
+.card_blog a {
+    margin-left: 4%;
+    margin-top: 4%;
+    padding: 10px;
+    background: var(--primary-color);
+    background: var(--primary-color);
+    color: #fff;
+}
+.card_blog a:hover{
+    background: #fff;
+    background-color: var(--secondary-color);
+}
+
+.card_blog a i{
+    margin-left: 5px;
+}
+
+
+
+}
+
+/* ================================================================== */
+
+/* ---------------breakpoints of devices of 425px-------------------- */
+
+@media screen and (max-width:425px) {
+    
+
+
+
+.hijo{
+    background: url(./img/05.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+
+
+
+
+/* ---------Formulaire---------- */
+.previs{
+    background: url(./img/06.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.previs .regis{
+    background: rgba(42, 65, 82, 0.9);
+    height: 500px;
+    width: 100%;
+    margin-left: 0px;
+    text-align: center;
+}
+
 
 
 .regis .form-regis textarea{
@@ -784,7 +865,7 @@
 
 .regis .form-regis .regist{
     background: var(--primary-color);
-    padding: .9rem;
+    padding: 15px;
     color: #fff;
     font-weight: bold;
     transITION: 0.5s;
@@ -795,31 +876,18 @@
     color: var(--secondary-color);
 }
 
-
-
 /* ------------Formulaire------------ */
 
 
 
-}
 
 
 
 
-
-/* ===================responsive sur mobile 375px-======= */
-
-@media screen and (max-width:375px) {
-    
-      .prim{
+.prim{
     background: #eff2f5;
     padding: var(--page-padding);
     text-align: center;
-    width: 100%;
-}
-
-.madre{
-    width: 100%;
 }
 
 .prim h3, .titulo span{
@@ -836,50 +904,46 @@
     /* background: #041E37; */
     display: block;
     flex-direction: column;
+    flex-direction: row;
     flex-wrap: nowrap;
-    margin-top: 3.75rem;
-    padding-left: 0rem;
+    margin-top: 60px;
+    width: 100%;
+    padding-left: 0px;
 }
 
 
 .card{
     background-color: #fff;
-    width: 22rem;
-    height: 18.75;
-    margin-top: 1.5rem;
-    margin-bottom: 4rem;
-    /* box-shadow: ; */
+    width: 100%;
+    height: 300px;
+    margin-top: 2px;
+    margin: 3rem 0rem 1rem 0rem;
 }
 
-.card .img_icon{
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-}
 
 .card .img_icon img{
-    width: 5rem;
-    height:5rem;
+    width: 4rem;
+    height: 4rem;
     border-radius: 50%;
-    border: .15rem dashed var(--primary-color);
-    padding: .125rem;
+    border: 2.5px dashed var(--primary-color);
+    padding: 0px;
     position: absolute;
-    left: 16rem;
-    top: -32px;
+    left: 160px;
+    top: -34px;
 }
 
 .img_icon .star {
-    margin-top: 20px;
+    margin-top: 1rem;
     color: var(--primary-color);
-    padding-left: var(--page-padding);
+    padding-left: 0px;
 }
 
 
 .card  .text{
-    line-height: 1.9rem;
+    line-height: 2;
     text-align: left;
     padding: var(--page-padding);
-    margin-top: .7rem;
+    font-size: .9rem;
 }
 
 .text .prf{
@@ -888,9 +952,9 @@
 }
 
 .text .prf img{
-    width: .31rem;
-    height:.31rem;
-    margin-top: 0px;
+    width: 2.4rem;
+    height: 2.4rem;
+    margin-top: 5px;
 }
 
 
@@ -902,38 +966,33 @@
     background: url(./img/mb.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 31.25rem;
-    padding-top: 12.5rem;
-    width: 100%;
+    height: 500px;
+    padding-top: 200px;
 }
 
 .secund .say{
     text-align: center;
-    line-height: 1.7;
-    font-size: .8rem;
+    line-height: 2;
 }
 
 
 .say .lorem{
-    margin-bottom: 3.12rem;
+    margin-bottom: 40px;
     color: #fff;
-    margin-bottom: 4.5rem;
+    font-size: .77rem;
 }
 
 .say .direct-link {
-   width: 25rem;
-   height: 3.12rem;
-   padding: .62rem;
-   background: var(--primary-color);
-   color: #ffffff;
-   text-decoration: none;
-   font-size: .93rem;
-   font-weight: bolder;
-   text-transform: uppercase;
+   width: 400px;
+   height: 50px;
+   padding: 5px;
+   font-size: .97rem;
+
 }
 
+
 .say .direct-link i{
-    margin-left: .31rem;
+    margin-left: 5px;
 }
 
 
@@ -944,26 +1003,18 @@
     text-align: center;
 }
 
-.int{
-    margin-top: 7rem;
-}
-
 .News_blog{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin-top: 6.25rem;
+    margin-top: 3rem;
 }
 
 .tercera .card_blog{
-    width: 21rem;
-    height: 32.28rem;
-    background: var(--transparent-background);
-    text-align: left;
-    box-shadow: #989899 2px 0px 10px;
+    width: 100%;
+    height: 520px;
     transition: .6s ease-in-out;
-    margin-top: 3rem;
-    margin-left: .7rem;
+    margin-left: 0px;
 }
 
 .tercera .card_blog:hover{
@@ -971,42 +1022,42 @@
 }
 
 .pcs img{
-    width: 21rem;
-    height: 15.62rem;
-    border: .18rem double #ffffff;
+    width: 100%;
+    height: 250px;
+    border: 3px double #ffffff;
 }
 
 .pcs .detl, .rate{
     padding: 4%;
-    line-height: 1.3;
 }
 
 .pcs .detl i{
-    margin-left: 1rem;
+    color: var(--primary-color);
+    margin-left: 16px;
 }
 
-.card_blog a {
-    margin-left: 4%;
-    margin-top: 4%;
-    padding: .62rem;
-    background: var(--primary-color);
-    background: var(--primary-color);
-    color: #fff;
-}
-.card_blog a:hover{
-    background: #fff;
-    background-color: var(--secondary-color);
+
 }
 
-.card_blog a i{
-    margin-left: .31rem;
+
+/* ================================================= */
+
+/* ------------breakpoints for devices of 375px--------------- */
+
+@media screen and (max-width:375px) {
+    
+    .hijo{
+    background: url(./img/05.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
 }
+
 
 
 
 
 /* ---------Formulaire---------- */
-
 .previs{
     background: url(./img/06.jpg);
     background-repeat: no-repeat;
@@ -1014,35 +1065,17 @@
 }
 
 .previs .regis{
-    background: #425668;
-    height: 31.25rem;
+    background: rgba(42, 65, 82, 0.9);
+    height: 500px;
     width: 100%;
+    margin-left: 0px;
     text-align: center;
-    margin-left: 0rem;
 }
 
-.previs .regis h1, .reg{
-    text-align: center;
-    color: #eff2f5;
-    line-height: 1.5;
-}
-
-.regis .form-regis .grid{
-    padding-top: 20px;
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    grid-gap: 20px;
-    padding: 10px;
-}
-
-.regis .form-regis .grid input{
-    height: 50px;
-    border: none;
-}
 
 
 .regis .form-regis textarea{
-    width: 360px;
+    width: 330px;
     height: 80px;
     margin-bottom: 30px;
     margin-top: 10px;
@@ -1051,7 +1084,7 @@
 
 .regis .form-regis .regist{
     background: var(--primary-color);
-    padding: .9rem;
+    padding: 15px;
     color: #fff;
     font-weight: bold;
     transITION: 0.5s;
@@ -1062,11 +1095,392 @@
     color: var(--secondary-color);
 }
 
+/* ------------Formulaire------------ */
 
 
 
 
 
+
+
+.prim{
+    background: #eff2f5;
+    padding: var(--page-padding);
+    text-align: center;
+}
+
+.prim h3, .titulo span{
+    color: var(--primary-color);
+}
+
+.titulo{
+    font-size: 2.4rem;
+}
+
+
+
+.slide{
+    /* background: #041E37; */
+    display: block;
+    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-top: 60px;
+    width: 100%;
+    padding-left: 0px;
+}
+
+
+.card{
+    background-color: #fff;
+    width: 100%;
+    height: 300px;
+    margin-top: 2px;
+    margin: 3rem 0rem 1rem 0rem;
+}
+
+
+.card .img_icon img{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    border: 2.5px dashed var(--primary-color);
+    padding: 0px;
+    position: absolute;
+    left: 145px;
+    top: -34px;
+}
+
+.img_icon .star {
+    margin-top: 1rem;
+    color: var(--primary-color);
+    padding-left: 0px;
+}
+
+
+.card  .text{
+    line-height: 2;
+    text-align: left;
+    padding: var(--page-padding);
+    font-size: .9rem;
+}
+
+.text .prf{
+    display: flex;
+    justify-content: space-between;
+}
+
+.text .prf img{
+    width: 2.4rem;
+    height: 2.4rem;
+    margin-top: 5px;
+}
+
+
+
+
+/* secund */
+
+.secund{
+    background: url(./img/mb.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    padding-top: 200px;
+    margin-bottom: 2rem;
+}
+
+.secund .say{
+    text-align: center;
+    line-height: 2;
+}
+
+
+.say .lorem{
+    margin-bottom: 40px;
+    color: #fff;
+    font-size: .77rem;
+}
+
+.say .direct-link {
+   width: 400px;
+   height: 50px;
+   padding: 5px;
+   font-size: .97rem;
+
+}
+
+
+.say .direct-link i{
+    margin-left: 5px;
+}
+
+
+/* tercera */
+.tercera{
+    background: var(--transparent-background);
+    padding: var(--page-padding);
+    text-align: center;
+}
+
+.News_blog{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+}
+
+.tercera .card_blog{
+    width: 100%;
+    height: 520px;
+    transition: .6s ease-in-out;
+    margin-left: 0px;
+}
+
+.tercera .card_blog:hover{
+    transform: translateY(-10px);
+}
+
+.pcs img{
+    width: 100%;
+    height: 250px;
+    border: 3px double #ffffff;
+}
+
+.pcs .detl, .rate{
+    padding: 4%;
+}
+
+.pcs .detl i{
+    color: var(--primary-color);
+    margin-left: 16px;
+}
+
+
+}
+
+/* ======================================================================= */
+
+/* ------------------breakpoints for devices 320px-------------- */
+
+@media  screen and  (max-width:320px) {
+    
+
+
+
+
+
+/* ---------Formulaire---------- */
+.previs{
+    background: url(./img/06.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.previs .regis{
+    background: rgba(42, 65, 82, 0.9);
+    height: 500px;
+    width: 100%;
+    margin-left: 0px;
+    text-align: center;
+    text-align: center;
+}
+
+.regis .form-regis .grid input{
+    width: 130px;
+
+}
+
+.regis .form-regis .grid select{
+    width: 130px;
+}
+
+
+.regis .form-regis textarea{
+    width: 281px;
+    height: 80px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    border: none;
+}
+
+.regis .form-regis .regist{
+    background: var(--primary-color);
+    padding: 15px;
+    color: #fff;
+    font-weight: bold;
+    transITION: 0.5s;
+}
+
+.regis .form-regis .regist:hover{
+    background: #fff;
+    color: var(--secondary-color);
+}
+
+/* ------------Formulaire------------ */
+
+
+
+
+
+
+
+.prim{
+    background: #eff2f5;
+    padding: var(--page-padding);
+    text-align: center;
+}
+
+.prim h3, .titulo span{
+    color: var(--primary-color);
+}
+
+.titulo{
+    font-size: 2.4rem;
+}
+
+
+
+.slide{
+    /* background: #041E37; */
+    display: block;
+    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-top: 60px;
+    width: 100%;
+    padding-left: 0px;
+}
+
+
+.card{
+    background-color: #fff;
+    width: 100%;
+    height: 300px;
+    margin-top: 2px;
+    margin: 3rem 0rem 1rem 0rem;
+}
+
+
+.card .img_icon img{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    border: 2.5px dashed var(--primary-color);
+    padding: 0px;
+    position: absolute;
+    left: 120px;
+    top: -40px;
+}
+
+.img_icon .star {
+    margin-top: 1rem;
+    color: var(--primary-color);
+    padding-left: 0px;
+}
+
+
+.card  .text{
+    line-height: 2;
+    text-align: left;
+    padding: var(--page-padding);
+    font-size: .9rem;
+}
+
+.text .prf{
+    display: flex;
+    justify-content: space-between;
+}
+
+.text .prf img{
+    width: 2rem;
+    height: 2rem;
+    margin-top: 5px;
+}
+
+
+
+
+/* secund */
+
+.secund{
+    background: url(./img/mb.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    padding-top: 200px;
+    margin-bottom: 2rem;
+}
+
+.secund .say{
+    text-align: center;
+    line-height: 2;
+}
+
+
+.say .lorem{
+    margin-bottom: 40px;
+    color: #fff;
+    font-size: .79rem;
+}
+
+.say .direct-link {
+   width: 400px;
+   height: 50px;
+   padding: 5px;
+   font-size: .97rem;
+
+}
+
+
+.say .direct-link i{
+    margin-left: 5px;
+}
+
+
+/* tercera */
+.tercera{
+    background: var(--transparent-background);
+    padding: var(--page-padding);
+    text-align: center;
+}
+
+.News_blog{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+}
+
+.tercera .card_blog{
+    width: 100%;
+    height: 520px;
+    transition: .6s ease-in-out;
+    margin-left: 0px;
+}
+
+.tercera .card_blog:hover{
+    transform: translateY(-10px);
+}
+
+.pcs img{
+    width: 100%;
+    height: 230px;
+    border: 3px double #ffffff;
+}
+
+.pcs .detl, .rate{
+    padding: 4%;
+}
+
+.rate p{
+    margin-bottom: 1rem;
+}
+
+.pcs .detl i{
+    color: var(--primary-color);
+    margin-left: 16px;
+}
 
 
 
