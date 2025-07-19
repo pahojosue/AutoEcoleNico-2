@@ -1,0 +1,177 @@
+{
+    "1": {
+        "image_principale": "images/img5.jpg",
+        "titre1": "Titre pour Lien 1",
+        "para1": "Premier paragraphe descriptif pour la page 1.",
+        "para2": "Deuxième paragraphe avec un contenu spécifique pour la page 1.",
+        "image1": "images/img5.jpg",
+        "image2": "images/img5.jpg",
+        "para3": "Paragraphe avant tableau pour page 1.",
+        "titre2": "Titre tableau page 1",
+        "tableau": [
+            {"nom": "Nom A", "valeur": "Valeur A"},
+            {"nom": "Nom B", "valeur": "Valeur B"},
+            {"nom": "Nom C", "valeur": "Valeur C"},
+            {"nom": "Nom D", "valeur": "Valeur D"},
+            {"nom": "Nom E", "valeur": "Valeur E"},
+            {"nom": "Nom F", "valeur": "Valeur F"}
+        ],
+        "titre3": "Titre avant liste page 1",
+        "para4": "Paragraphe avant liste pour page 1.",
+        "liste": [
+            "Premier élément de la liste",
+            "Deuxième élément important",
+            "Troisième élément intéressant",
+            "Quatrième information",
+            "Cinquième élément"
+        ],
+        "titre4": "Dernier titre page 1",
+        "para5": "Dernier paragraphe final pour la page 1."
+    },
+
+    "2": {
+        "image_principale": "images/img6.jpg",
+        "titre1": "Titre pour Lien 2",
+        "para1": "Premier paragraphe descriptif pour la page 2.",
+        "para2": "Deuxième paragraphe avec un contenu spécifique pour la page 2.",
+        "image1": "images/img6.jpg",
+        "image2": "images/img6.jpg",
+        "para3": "Paragraphe avant tableau pour page 2.",
+        "titre2": "Titre tableau page 2",
+        "tableau": [
+            {"nom": "Nom G", "valeur": "Valeur G"},
+            {"nom": "Nom H", "valeur": "Valeur H"},
+            {"nom": "Nom I", "valeur": "Valeur I"},
+            {"nom": "Nom J", "valeur": "Valeur J"},
+            {"nom": "Nom K", "valeur": "Valeur K"},
+            {"nom": "Nom L", "valeur": "Valeur L"}
+        ],
+        "titre3": "Titre avant liste page 2",
+        "para4": "Paragraphe avant liste pour page 2.",
+        "liste": [
+            "Premier élément de la liste 2",
+            "Deuxième élément page 2",
+            "Troisième élément page 2",
+            "Quatrième élément page 2",
+            "Cinquième élément page 2"
+        ],
+        "titre4": "Dernier titre page 2",
+        "para5": "Dernier paragraphe final pour la page 2."
+    },
+    "3": {
+        "image_principale": "images/img3.jpg",
+        "titre1": "Titre pour Lien 1",
+        "para1": "Premier paragraphe descriptif pour la page 1.",
+        "para2": "Deuxième paragraphe avec un contenu spécifique pour la page 1.",
+        "image1": "images/img3.jpg",
+        "image2": "images/img3.jpg",
+        "para3": "Paragraphe avant tableau pour page 1.",
+        "titre2": "Titre tableau page 1",
+        "tableau": [
+            {"nom": "Nom A", "valeur": "Valeur A"},
+            {"nom": "Nom B", "valeur": "Valeur B"},
+            {"nom": "Nom C", "valeur": "Valeur C"},
+            {"nom": "Nom D", "valeur": "Valeur D"},
+            {"nom": "Nom E", "valeur": "Valeur E"},
+            {"nom": "Nom F", "valeur": "Valeur F"}
+        ],
+        "titre3": "Titre avant liste page 1",
+        "para4": "Paragraphe avant liste pour page 1.",
+        "liste": [
+            "Premier élément de la liste",
+            "Deuxième élément important",
+            "Troisième élément intéressant",
+            "Quatrième information",
+            "Cinquième élément"
+        ],
+        "titre4": "Dernier titre page 1",
+        "para5": "Dernier paragraphe final pour la page 1."
+    },
+    "4": {
+        "image_principale": "images/img4.jpg",
+        "titre1": "Titre pour Lien 1",
+        "para1": "Premier paragraphe descriptif pour la page 1.",
+        "para2": "Deuxième paragraphe avec un contenu spécifique pour la page 1.",
+        "image1": "images/img4.jpg",
+        "image2": "images/img4.jpg",
+        "para3": "Paragraphe avant tableau pour page 1.",
+        "titre2": "Titre tableau page 1",
+        "tableau": [
+            {"nom": "Nom A", "valeur": "Valeur A"},
+            {"nom": "Nom B", "valeur": "Valeur B"},
+            {"nom": "Nom C", "valeur": "Valeur C"},
+            {"nom": "Nom D", "valeur": "Valeur D"},
+            {"nom": "Nom E", "valeur": "Valeur E"},
+            {"nom": "Nom F", "valeur": "Valeur F"}
+        ],
+        "titre3": "Titre avant liste page 1",
+        "para4": "Paragraphe avant liste pour page 1.",
+        "liste": [
+            "Premier élément de la liste",
+            "Deuxième élément important",
+            "Troisième élément intéressant",
+            "Quatrième information",
+            "Cinquième élément"
+        ],
+        "titre4": "Dernier titre page 1",
+        "para5": "Dernier paragraphe final pour la page 1."
+    },
+    "5": {
+        "image_principale": "images/moniteur.jpg",
+        "titre1": "Titre pour Lien 1",
+        "para1": "Premier paragraphe descriptif pour la page 1.",
+        "para2": "Deuxième paragraphe avec un contenu spécifique pour la page 1.",
+        "image1": "images/moniteur.jpg",
+        "image2": "images/moniteur.jpg",
+        "para3": "Paragraphe avant tableau pour page 1.",
+        "titre2": "Titre tableau page 1",
+        "tableau": [
+            {"nom": "Nom A", "valeur": "Valeur A"},
+            {"nom": "Nom B", "valeur": "Valeur B"},
+            {"nom": "Nom C", "valeur": "Valeur C"},
+            {"nom": "Nom D", "valeur": "Valeur D"},
+            {"nom": "Nom E", "valeur": "Valeur E"},
+            {"nom": "Nom F", "valeur": "Valeur F"}
+        ],
+        "titre3": "Titre avant liste page 1",
+        "para4": "Paragraphe avant liste pour page 1.",
+        "liste": [
+            "Premier élément de la liste",
+            "Deuxième élément important",
+            "Troisième élément intéressant",
+            "Quatrième information",
+            "Cinquième élément"
+        ],
+        "titre4": "Dernier titre page 1",
+        "para5": "Dernier paragraphe final pour la page 1."
+    },
+    "6": {
+        "image_principale": "images/permis de conduire.jpg",
+        "titre1": "Titre pour Lien 1",
+        "para1": "Premier paragraphe descriptif pour la page 1.",
+        "para2": "Deuxième paragraphe avec un contenu spécifique pour la page 1.",
+        "image1": "images/permis de conduire.jpg",
+        "image2": "images/permis de conduire.jpg",
+        "para3": "Paragraphe avant tableau pour page 1.",
+        "titre2": "Titre tableau page 1",
+        "tableau": [
+            {"nom": "Nom A", "valeur": "Valeur A"},
+            {"nom": "Nom B", "valeur": "Valeur B"},
+            {"nom": "Nom C", "valeur": "Valeur C"},
+            {"nom": "Nom D", "valeur": "Valeur D"},
+            {"nom": "Nom E", "valeur": "Valeur E"},
+            {"nom": "Nom F", "valeur": "Valeur F"}
+        ],
+        "titre3": "Titre avant liste page 1",
+        "para4": "Paragraphe avant liste pour page 1.",
+        "liste": [
+            "Premier élément de la liste",
+            "Deuxième élément important",
+            "Troisième élément intéressant",
+            "Quatrième information",
+            "Cinquième élément"
+        ],
+        "titre4": "Dernier titre page 1",
+        "para5": "Dernier paragraphe final pour la page 1."
+    }
+}
