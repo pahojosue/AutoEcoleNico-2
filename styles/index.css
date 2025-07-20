@@ -1314,6 +1314,267 @@ body {
 /*                      End Pricing                                 */
 
 /*                                      Testimonials                        */
+.hijo{
+    background: url(../body_footer/img/05.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+
+
+
+
+/* ---------Formulaire---------- */
+.madre {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.previs{
+    background: url(../body_footer/img/06.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.previs .regis{
+    background: rgba(42, 65, 82, 0.9);
+    height: 500px;
+    width: 400px;
+    margin-left: 700px;
+    text-align: center;
+}
+
+.previs .regis h1, .reg{
+    text-align: center;
+    color: #eff2f5;
+    line-height: 1.5;
+}
+
+.regis .form-regis .grid{
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 20px;
+    padding: 10px;
+}
+
+.regis .form-regis .grid input{
+    height: 50px;
+    border: none;
+}
+
+
+.regis .form-regis textarea{
+    width: 380px;
+    height: 80px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    border: none;
+}
+
+.regis .form-regis .regist{
+    background: var(--primary-color);
+    padding: 15px;
+    color: #fff;
+    font-weight: bold;
+    transITION: 0.5s;
+}
+
+.regis .form-regis .regist:hover{
+    background: #fff;
+    color: var(--secondary-color);
+}
+
+/* ------------Formulaire------------ */
+
+
+
+
+
+
+
+.prim{
+    background: #eff2f5;
+    padding: var(--page-padding);
+    text-align: center;
+}
+
+.prim h3, .titulo span{
+    color: var(--primary-color);
+}
+
+.titulo{
+    font-size: 2.4rem;
+}
+
+
+
+.slide{
+    /* background: #041E37; */
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-top: 60px;
+}
+
+
+.card{
+    background-color: #fff;
+    width: 450px;
+    height: 300px;
+    margin-top: 20px;
+    margin: 0rem 1rem 1rem 0;
+}
+
+.card .img_icon{
+    display: flex;
+    justify-content: space-between;
+    position: relative ;
+}
+
+.card .img_icon img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2.5px dashed var(--primary-color);
+    padding: 0px;
+    position: absolute;
+    left: 310px;
+    top: -39px;
+}
+
+.img_icon .star {
+    margin-top: 20px;
+    color: var(--primary-color);
+    padding-left: 0px;
+}
+
+
+.card  .text{
+    line-height: 2;
+    text-align: left;
+    padding: var(--page-padding);
+}
+
+.text .prf{
+    display: flex;
+    justify-content: space-between;
+}
+
+.text .prf img{
+    width: 50px;
+    height: 50px;
+    margin-top: 5px;
+}
+
+
+
+
+/* secund */
+
+.secund{
+    background: url(../body_footer/img/mb.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    padding-top: 200px;
+}
+
+.secund .say{
+    text-align: center;
+    line-height: 2;
+}
+
+
+.say .lorem{
+    margin-bottom: 50px;
+    color: #fff;
+}
+
+.say .direct-link {
+   width: 400px;
+   height: 50px;
+   padding: 10px;
+   background: var(--primary-color);
+   color: #ffffff;
+   text-decoration: none;
+   font-size: 15px;
+   font-weight: bolder;
+   text-transform: uppercase;
+   transition: .5s;
+}
+
+.say .direct-link:hover{
+    background: #fff;
+    color: var(--primary-color);
+}
+
+
+.say .direct-link i{
+    margin-left: 5px;
+}
+
+
+/* tercera */
+.tercera{
+    background: var(--transparent-background);
+    padding: var(--page-padding);
+    text-align: center;
+}
+
+.News_blog{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+.tercera .card_blog{
+    width: 360px;
+    height: 520px;
+    background: var(--transparent-background);
+    text-align: left;
+    box-shadow: #989899 2px 0px 10px;
+    transition: .6s ease-in-out;
+}
+
+.tercera .card_blog:hover{
+    transform: translateY(-10px);
+}
+
+.pcs img{
+    width: 360px;
+    height: 250px;
+    border: 3px double #ffffff;
+}
+
+.pcs .detl, .rate{
+    padding: 4%;
+}
+
+.pcs .detl i{
+    color: var(--primary-color);
+    margin-left: 16px;
+}
+
+.card_blog a {
+    margin-left: 4%;
+    margin-top: 4%;
+    padding: 10px;
+    background: var(--primary-color);
+    background: var(--primary-color);
+    color: #fff;
+}
+.card_blog a:hover{
+    background: #fff;
+    background-color: var(--secondary-color);
+}
+
+.card_blog a i{
+    margin-left: 5px;
+}
 
 /*                                          End Testimonials                    */
 
@@ -1322,7 +1583,7 @@ body {
 
 *{
     list-style: none;
-
+    text-decoration: none;
 }
 
 
@@ -1577,6 +1838,274 @@ footer{
     .index-course-card img {
         width: calc(100% - calc(var(--card-padding) * 4));
     }
+    .index-course-card-explain {
+        margin-top: 30%;
+    }
+    .index-course-card-description {
+        height: 30%;
+    }
+
+    .hijo{
+    background: url(../body_footer/img/05.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+
+
+
+
+/* ---------Formulaire---------- */
+.previs{
+    background: url(../body_footer/img/02.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.previs .regis{
+    background: rgba(42, 65, 82, 0.9);
+    height: 500px;
+    width: 400px;
+    margin-left: 700px;
+    text-align: center;
+}
+
+.previs .regis h1, .reg{
+    text-align: center;
+    color: #eff2f5;
+    line-height: 1.5;
+}
+
+.regis .form-regis .grid{
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 20px;
+    padding: 10px;
+}
+
+.regis .form-regis .grid input{
+    height: 50px;
+    border: none;
+}
+
+
+.regis .form-regis textarea{
+    width: 380px;
+    height: 80px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    border: none;
+}
+
+.regis .form-regis .regist{
+    background: var(--primary-color);
+    padding: 15px;
+    color: #fff;
+    font-weight: bold;
+    transITION: 0.5s;
+}
+
+.regis .form-regis .regist:hover{
+    background: #fff;
+    color: var(--secondary-color);
+}
+
+/* ------------Formulaire------------ */
+
+
+
+
+
+
+
+.prim{
+    background: #eff2f5;
+    padding: var(--page-padding);
+    text-align: center;
+}
+
+.prim h3, .titulo span{
+    color: var(--primary-color);
+}
+
+.titulo{
+    font-size: 2.4rem;
+}
+
+
+
+.slide{
+    /* background: #041E37; */
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-top: 6rem;
+}
+
+
+.card{
+    background-color: #fff;
+    width: 450px;
+    height: 300px;
+    margin: 0rem 1rem 1rem 0;
+}
+
+.card .img_icon{
+    display: flex;
+    justify-content: space-between;
+    position: relative ;
+}
+
+.card .img_icon img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2.5px dashed var(--primary-color);
+    padding: 0px;
+    position: absolute;
+    left:220px;
+    top: -43px;
+}
+
+.img_icon .star {
+    margin-top: 20px;
+    color: var(--primary-color);
+    padding-left: 0px;
+}
+
+
+.card  .text{
+    line-height: 2;
+    text-align: left;
+    padding: var(--page-padding);
+    font-size: .94rem;
+}
+
+.text .prf{
+    display: flex;
+    justify-content: space-between;
+}
+
+.text .prf img{
+    width: 50px;
+    height: 50px;
+    margin-top: 0px;
+}
+
+
+
+
+/* secund */
+
+.secund{
+    background: url(../body_footer/img/mb.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    padding-top: 200px;
+}
+
+.secund .say{
+    text-align: center;
+    line-height: 2;
+}
+
+
+.say .lorem{
+    margin-bottom: 50px;
+    color: #fff;
+}
+
+.say .direct-link {
+   width: 400px;
+   height: 50px;
+   padding: 10px;
+   background: var(--primary-color);
+   color: #ffffff;
+   text-decoration: none;
+   font-size: 15px;
+   font-weight: bolder;
+   text-transform: uppercase;
+   transition: .5s;
+}
+
+.say .direct-link:hover{
+    background: #fff;
+    color: var(--primary-color);
+}
+
+
+.say .direct-link i{
+    margin-left: 5px;
+}
+
+
+/* tercera */
+.tercera{
+    background: var(--transparent-background);
+    padding: var(--page-padding);
+    text-align: center;
+}
+
+.News_blog{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+.tercera .card_blog{
+    width: 360px;
+    height: 520px;
+    background: var(--transparent-background);
+    text-align: left;
+    box-shadow: #989899 2px 0px 10px;
+    transition: .6s ease-in-out;
+    margin-top: 2rem;
+}
+
+.tercera .card_blog:hover{
+    transform: translateY(-10px);
+}
+
+.pcs img{
+    width: 360px;
+    height: 250px;
+    border: 3px double #ffffff;
+}
+
+.pcs .detl, .rate{
+    padding: 4%;
+}
+
+.pcs .detl i{
+    color: var(--primary-color);
+    margin-left: 16px;
+}
+
+.card_blog a {
+    margin-left: 4%;
+    margin-top: 4%;
+    padding: 10px;
+    background: var(--primary-color);
+    background: var(--primary-color);
+    color: #fff;
+}
+.card_blog a:hover{
+    background: #fff;
+    background-color: var(--secondary-color);
+}
+
+.card_blog a i{
+    margin-left: 5px;
+}
+
+
+
+
 }
 
 @media screen and (max-width: 992px) {
@@ -1678,6 +2207,267 @@ footer{
         box-shadow: 1px 1px 8px 0px gray;
         animation: header-down 0.5s;
     }
+
+
+}
+
+@media screen and (max-width:853px) {
+    
+    
+    .hijo{
+    background: url(./img/05.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+
+
+
+
+/* ---------Formulaire---------- */
+.previs{
+    background: url(./img/06.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.previs .regis{
+    background: rgba(42, 65, 82, 0.9);
+    height: 100%;
+    width: 50%;
+    margin-left: 25%;
+    text-align: center;
+}
+
+.previs .regis h1, .reg{
+    text-align: center;
+    color: #eff2f5;
+    line-height: 1.5;
+}
+
+.regis .form-regis .grid{
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 6%;
+}
+
+.regis .form-regis .grid input{
+    height: 50px;
+    border: none;
+}
+
+
+.regis .form-regis textarea{
+    width: 88%;
+    height: 80px;
+    margin-left: 1%;
+    border: none;
+}
+
+.regis .form-regis .regist{
+    background: var(--primary-color);
+    padding: 4%;
+    color: #fff;
+    font-weight: bold;
+    transition: 0.5s;
+    margin-bottom: 20%;
+}
+
+.regis .form-regis .regist:hover{
+    background: #fff;
+    color: var(--secondary-color);
+}
+
+/* ------------Formulaire------------ */
+
+
+.prim{
+    background: #eff2f5;
+    padding: var(--page-padding);
+    text-align: center;
+}
+
+.prim h3, .titulo span{
+    color: var(--primary-color);
+}
+
+.titulo{
+    font-size: 2.4rem;
+}
+
+
+
+.slide{
+    display: block;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-top: 6%;
+    width: 100%;
+    padding-left: 10%;
+}
+
+
+.card{
+    background-color: #fff;
+    width: 90%;
+    height: 300px;
+    margin: 5rem 3rem 3rem 0;
+}
+
+.card .img_icon{
+    display: block;
+    flex-direction: column;
+    position: relative ;
+    padding: 4%;
+}
+
+.card .img_icon img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2.5px dashed var(--primary-color);
+    padding: 0px;
+    position: absolute;
+    left: 250px;
+    top: -39px;
+}
+
+.img_icon .star {
+    margin-top: 20px;
+    color: var(--primary-color);
+    padding-left: 0px;
+}
+
+
+.card  .text{
+    line-height: 2;
+    text-align: left;
+    padding: var(--page-padding);
+}
+
+.text .prf{
+    display: flex;
+    justify-content: space-between;
+}
+
+.text .prf img{
+    width: 30px;
+    height: 30px;
+}
+
+
+
+
+/* secund */
+
+.secund{
+    background: url(./img/mb.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    padding-top: 200px;
+}
+
+.secund .say{
+    text-align: center;
+    line-height: 2;
+}
+
+
+.say .lorem{
+    margin-bottom: 50px;
+    color: #fff;
+}
+
+.say .direct-link {
+   width: 400px;
+   height: 50px;
+   padding: 10px;
+   background: var(--primary-color);
+   color: #ffffff;
+   text-decoration: none;
+   font-size: 15px;
+   font-weight: bolder;
+   text-transform: uppercase;
+   transition: .5s;
+}
+
+.say .direct-link:hover{
+    background: #fff;
+    color: var(--primary-color);
+}
+
+
+.say .direct-link i{
+    margin-left: 5px;
+}
+
+
+/* tercera */
+.tercera{
+    background: var(--transparent-background);
+    padding: var(--page-padding);
+    text-align: center;
+    padding-right: 4rem;
+}
+
+.News_blog{
+    display: block;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+.tercera .card_blog{
+    width: 480px;
+    height: 520px;
+    background: var(--transparent-background);
+    text-align: left;
+    box-shadow: #989899 2px 0px 10px;
+    transition: .6s ease-in-out;
+    margin-left: 18%;
+    margin-top: 5%;
+}
+
+.tercera .card_blog:hover{
+    transform: translateY(-10px);
+}
+
+.pcs img{
+    width: 480px;
+    height: 250px;
+    border: 3px double #ffffff;
+}
+
+.pcs .detl, .rate{
+    padding: 4%;
+}
+
+.pcs .detl i{
+    color: var(--primary-color);
+    margin-left: 16px;
+}
+
+.card_blog a {
+    margin-left: 4%;
+    margin-top: 4%;
+    padding: 10px;
+    background: var(--primary-color);
+    background: var(--primary-color);
+    color: #fff;
+}
+.card_blog a:hover{
+    background: #fff;
+    background-color: var(--secondary-color);
+}
+
+.card_blog a i{
+    margin-left: 5px;
+}
+
 
 
 }
@@ -1890,164 +2680,7 @@ footer{
 
 
 
-.slide{
-    /* background: #041E37; */
-    display: block;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    margin-top: 3.75rem;
-}
 
-
-.card{
-    background-color: #fff;
-    width: 25rem;
-    height: 18.75;
-    margin-top: 1.25rem;
-    /* box-shadow: ; */
-}
-
-.card .img_icon{
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-}
-
-.card .img_icon img{
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    border: 2.5px dashed var(--primary-color);
-    padding: 2px;
-    position: absolute;
-    left: 300px;
-    top: -32px;
-}
-
-.img_icon .star {
-    margin-top: 20px;
-    color: var(--primary-color);
-    padding-left: var(--page-padding);
-}
-
-
-.card  .text{
-    /* line-height: 1; */
-    text-align: left;
-    padding: var(--page-padding);
-}
-
-.text .prf{
-    display: flex;
-    justify-content: space-between;
-}
-
-.text .prf img{
-    width: 50px;
-    height: 50px;
-    margin-top: 5px;
-}
-
-
-
-
-/* secund */
-
-.secund{
-    background: url(./img/mb.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 500px;
-    padding-top: 200px;
-    /* width: 100%; */
-}
-
-.secund .say{
-    text-align: center;
-    line-height: 2;
-}
-
-
-.say .lorem{
-    margin-bottom: 50px;
-    color: #fff;
-}
-
-.say .direct-link {
-   width: 400px;
-   height: 50px;
-   padding: 10px;
-   background: var(--primary-color);
-   color: #ffffff;
-   text-decoration: none;
-   font-size: 15px;
-   font-weight: bolder;
-   text-transform: uppercase;
-}
-
-.say .direct-link i{
-    margin-left: 5px;
-}
-
-
-/* tercera */
-.tercera{
-    background: var(--transparent-background);
-    padding: var(--page-padding);
-    text-align: center;
-}
-
-.News_blog{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    margin-top: 100px;
-}
-
-.tercera .card_blog{
-    width: 360px;
-    height: 520px;
-    background: var(--transparent-background);
-    text-align: left;
-    box-shadow: #989899 2px 0px 10px;
-    transition: .6s ease-in-out;
-    margin-top: 3rem;
-}
-
-.tercera .card_blog:hover{
-    transform: translateY(-10px);
-}
-
-.pcs img{
-    width: 360px;
-    height: 250px;
-    border: 3px double #ffffff;
-}
-
-.pcs .detl, .rate{
-    padding: 4%;
-}
-
-.pcs .detl i{
-    margin-left: 16px;
-}
-
-.card_blog a {
-    margin-left: 4%;
-    margin-top: 4%;
-    padding: 10px;
-    background: var(--primary-color);
-    background: var(--primary-color);
-    color: #fff;
-}
-.card_blog a:hover{
-    background: #fff;
-    background-color: var(--secondary-color);
-}
-
-.card_blog a i{
-    margin-left: 5px;
-}
 
 .swiper-wrapper {
     position: relative;
@@ -2111,6 +2744,17 @@ footer{
     padding-top: 12%;
     padding-bottom: 12%;
 }
+
+.index-course-card {
+    margin-top: 15%;
+}
+.index-course-card-explain {
+    font-size: 10px;
+}
+.index-course-card-explain .first,.second,.third {
+        font-size: 10px;
+}
+
 
 .index-gallery-subtitle {
     font-size: 30px;
@@ -2190,6 +2834,238 @@ footer{
     .index-course-card img {
         width: calc(100% - calc(var(--card-padding) * 2));
     }
+
+    .index-course-card-explain {
+        margin-top: 22%;
+        font-size: 10px;
+    }
+    .index-course-card-description {
+        height: 30%;
+    }
+}
+
+@media screen and (max-width: 492px) {
+    .index-course-card-explain {
+        margin-top: 30%;
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:430px) {
+    
+
+
+
+.hijo{
+    background: url(./img/05.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+
+
+
+
+/* ---------Formulaire---------- */
+.previs{
+    background: url(./img/06.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.previs .regis{
+    background: rgba(42, 65, 82, 0.9);
+    height: 500px;
+    width: 100%;
+    margin-left: 0px;
+    text-align: center;
+}
+
+
+
+.regis .form-regis textarea{
+    width: 380px;
+    height: 80px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    border: none;
+}
+
+.regis .form-regis .regist{
+    background: var(--primary-color);
+    padding: 15px;
+    color: #fff;
+    font-weight: bold;
+    transITION: 0.5s;
+}
+
+.regis .form-regis .regist:hover{
+    background: #fff;
+    color: var(--secondary-color);
+}
+
+/* ------------Formulaire------------ */
+
+
+
+
+
+
+
+.prim{
+    background: #eff2f5;
+    padding: var(--page-padding);
+    text-align: center;
+}
+
+.prim h3, .titulo span{
+    color: var(--primary-color);
+}
+
+.titulo{
+    font-size: 2.4rem;
+}
+
+
+
+.slide{
+    /* background: #041E37; */
+    display: block;
+    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-top: 60px;
+    width: 100%;
+    padding-left: 0px;
+}
+
+
+.card{
+    background-color: #fff;
+    width: 100%;
+    height: 300px;
+    margin-top: 2px;
+    margin: 3rem 0rem 1rem 0rem;
+}
+
+
+.card .img_icon img{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    border: 2.5px dashed var(--primary-color);
+    padding: 0px;
+    position: absolute;
+    left: 160px;
+    top: -34px;
+}
+
+.img_icon .star {
+    margin-top: 1rem;
+    color: var(--primary-color);
+    padding-left: 0px;
+}
+
+
+.card  .text{
+    line-height: 2;
+    text-align: left;
+    padding: var(--page-padding);
+    font-size: .9rem;
+}
+
+.text .prf{
+    display: flex;
+    justify-content: space-between;
+}
+
+.text .prf img{
+    width: 2.4rem;
+    height: 2.4rem;
+    margin-top: 5px;
+}
+
+
+
+
+/* secund */
+
+.secund{
+    background: url(./img/mb.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    padding-top: 200px;
+}
+
+.secund .say{
+    text-align: center;
+    line-height: 2;
+}
+
+
+.say .lorem{
+    margin-bottom: 40px;
+    color: #fff;
+    font-size: .77rem;
+}
+
+.say .direct-link {
+   width: 400px;
+   height: 50px;
+   padding: 5px;
+   font-size: .97rem;
+
+}
+
+
+.say .direct-link i{
+    margin-left: 5px;
+}
+
+
+/* tercera */
+.tercera{
+    background: var(--transparent-background);
+    padding: var(--page-padding);
+    text-align: center;
+}
+
+.News_blog{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+}
+
+.tercera .card_blog{
+    width: 100%;
+    height: 520px;
+    transition: .6s ease-in-out;
+    margin-left: 0px;
+}
+
+.tercera .card_blog:hover{
+    transform: translateY(-10px);
+}
+
+.pcs img{
+    width: 100%;
+    height: 250px;
+    border: 3px double #ffffff;
+}
+
+.pcs .detl, .rate{
+    padding: 4%;
+}
+
+.pcs .detl i{
+    color: var(--primary-color);
+    margin-left: 16px;
+}
+
+
 }
 
 @media screen and (max-width: 426px) {
@@ -2239,6 +3115,9 @@ footer{
     .index-course-card-explain {
         margin-top: 40%;
     }
+    .index-course-card-explain .first,.second,.third {
+        font-size: 10px;
+    }
 
     .index-course-card-description {
         height: 27%;
@@ -2278,13 +3157,6 @@ footer{
 }
 
 @media screen and (max-width: 376px) {
-    .prim .slide .card {
-        /* margin-right: var(--page-padding); */
-        width: 100%;
-    }
-    .prim .slide .card .img_icon{
-        display: none;
-    }
 
     .content-slide .slider-buttons button {
         font-size: 0.6rem;
@@ -2328,6 +3200,216 @@ footer{
     }
 }
 
+
+@media screen and (max-width:375px) {
+    
+    .hijo{
+    background: url(./img/05.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+/* ---------Formulaire---------- */
+.previs{
+    background: url(./img/06.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.previs .regis{
+    background: rgba(42, 65, 82, 0.9);
+    height: 500px;
+    width: 100%;
+    margin-left: 0px;
+    text-align: center;
+}
+
+
+
+.regis .form-regis textarea{
+    width: 330px;
+    height: 80px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    border: none;
+}
+
+.regis .form-regis .regist{
+    background: var(--primary-color);
+    padding: 15px;
+    color: #fff;
+    font-weight: bold;
+    transITION: 0.5s;
+}
+
+.regis .form-regis .regist:hover{
+    background: #fff;
+    color: var(--secondary-color);
+}
+
+/* ------------Formulaire------------ */
+
+
+
+
+
+
+
+.prim{
+    background: #eff2f5;
+    padding: var(--page-padding);
+    text-align: center;
+}
+
+.prim h3, .titulo span{
+    color: var(--primary-color);
+}
+
+.titulo{
+    font-size: 2.4rem;
+}
+
+
+
+.slide{
+    /* background: #041E37; */
+    display: block;
+    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-top: 60px;
+    width: 100%;
+    padding-left: 0px;
+}
+
+
+.card{
+    background-color: #fff;
+    width: 100%;
+    height: 300px;
+    margin-top: 2px;
+    margin: 3rem 0rem 1rem 0rem;
+}
+
+
+.card .img_icon img{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    border: 2.5px dashed var(--primary-color);
+    padding: 0px;
+    position: absolute;
+    left: 145px;
+    top: -34px;
+}
+
+.img_icon .star {
+    margin-top: 1rem;
+    color: var(--primary-color);
+    padding-left: 0px;
+}
+
+
+.card  .text{
+    line-height: 2;
+    text-align: left;
+    padding: var(--page-padding);
+    font-size: .9rem;
+}
+
+.text .prf{
+    display: flex;
+    justify-content: space-between;
+}
+
+.text .prf img{
+    width: 2.4rem;
+    height: 2.4rem;
+    margin-top: 5px;
+}
+
+
+
+
+/* secund */
+
+.secund{
+    background: url(./img/mb.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    padding-top: 200px;
+    margin-bottom: 2rem;
+}
+
+.secund .say{
+    text-align: center;
+    line-height: 2;
+}
+
+
+.say .lorem{
+    margin-bottom: 40px;
+    color: #fff;
+    font-size: .77rem;
+}
+
+.say .direct-link {
+   width: 400px;
+   height: 50px;
+   padding: 5px;
+   font-size: .97rem;
+
+}
+
+
+.say .direct-link i{
+    margin-left: 5px;
+}
+
+
+/* tercera */
+.tercera{
+    background: var(--transparent-background);
+    padding: var(--page-padding);
+    text-align: center;
+}
+
+.News_blog{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+}
+
+.tercera .card_blog{
+    width: 100%;
+    height: 520px;
+    transition: .6s ease-in-out;
+    margin-left: 0px;
+}
+
+.tercera .card_blog:hover{
+    transform: translateY(-10px);
+}
+
+.pcs img{
+    width: 100%;
+    height: 250px;
+    border: 3px double #ffffff;
+}
+
+.pcs .detl, .rate{
+    padding: 4%;
+}
+
+.pcs .detl i{
+    color: var(--primary-color);
+    margin-left: 16px;
+}
+}
+
 @media screen and (max-width: 321px) {
     .swiper-button-prev {
         transform: translateX(-100%);
@@ -2366,10 +3448,234 @@ footer{
 
     .index-course-card-explain {
         margin-top: 40%;
+        font-size: 10px;
     }
 
     .index-course-card-description {
         height: 28%;
         line-height: 1rem;
     }
+}
+
+@media  screen and  (max-width:320px) {
+    
+
+
+
+
+
+/* ---------Formulaire---------- */
+.previs{
+    background: url(./img/06.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.previs .regis{
+    background: rgba(42, 65, 82, 0.9);
+    height: 500px;
+    width: 100%;
+    margin-left: 0px;
+    text-align: center;
+    text-align: center;
+}
+
+.regis .form-regis .grid input{
+    width: 130px;
+
+}
+
+.regis .form-regis .grid select{
+    width: 130px;
+}
+
+
+.regis .form-regis textarea{
+    width: 281px;
+    height: 80px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    border: none;
+}
+
+.regis .form-regis .regist{
+    background: var(--primary-color);
+    padding: 15px;
+    color: #fff;
+    font-weight: bold;
+    transITION: 0.5s;
+}
+
+.regis .form-regis .regist:hover{
+    background: #fff;
+    color: var(--secondary-color);
+}
+
+/* ------------Formulaire------------ */
+
+
+
+
+
+
+
+.prim{
+    background: #eff2f5;
+    padding: var(--page-padding);
+    text-align: center;
+}
+
+.prim h3, .titulo span{
+    color: var(--primary-color);
+}
+
+.titulo{
+    font-size: 2.4rem;
+}
+
+
+
+.slide{
+    /* background: #041E37; */
+    display: block;
+    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-top: 60px;
+    width: 100%;
+    padding-left: 0px;
+}
+
+
+.card{
+    background-color: #fff;
+    width: 100%;
+    height: 300px;
+    margin-top: 2px;
+    margin: 3rem 0rem 1rem 0rem;
+}
+
+
+.card .img_icon img{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    border: 2.5px dashed var(--primary-color);
+    padding: 0px;
+    position: absolute;
+    left: 120px;
+    top: -40px;
+}
+
+.img_icon .star {
+    margin-top: 1rem;
+    color: var(--primary-color);
+    padding-left: 0px;
+}
+
+
+.card  .text{
+    line-height: 2;
+    text-align: left;
+    padding: var(--page-padding);
+    font-size: .9rem;
+}
+
+.text .prf{
+    display: flex;
+    justify-content: space-between;
+}
+
+.text .prf img{
+    width: 2rem;
+    height: 2rem;
+    margin-top: 5px;
+}
+
+
+
+
+/* secund */
+
+.secund{
+    background: url(./img/mb.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    padding-top: 200px;
+    margin-bottom: 2rem;
+}
+
+.secund .say{
+    text-align: center;
+    line-height: 2;
+}
+
+
+.say .lorem{
+    margin-bottom: 40px;
+    color: #fff;
+    font-size: .79rem;
+}
+
+.say .direct-link {
+   width: 400px;
+   height: 50px;
+   padding: 5px;
+   font-size: .97rem;
+
+}
+
+
+.say .direct-link i{
+    margin-left: 5px;
+}
+
+
+/* tercera */
+.tercera{
+    background: var(--transparent-background);
+    padding: var(--page-padding);
+    text-align: center;
+}
+
+.News_blog{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+}
+
+.tercera .card_blog{
+    width: 100%;
+    height: 520px;
+    transition: .6s ease-in-out;
+    margin-left: 0px;
+}
+
+.tercera .card_blog:hover{
+    transform: translateY(-10px);
+}
+
+.pcs img{
+    width: 100%;
+    height: 230px;
+    border: 3px double #ffffff;
+}
+
+.pcs .detl, .rate{
+    padding: 4%;
+}
+
+.rate p{
+    margin-bottom: 1rem;
+}
+
+.pcs .detl i{
+    color: var(--primary-color);
+    margin-left: 16px;
+}
+
+
+
 }
