@@ -1,6 +1,6 @@
 body{
     font-family: 'Barlow' sans-serif;
-    background-color: #041E37;
+   background-color: #E81D4F;
     padding: 2rem;
     margin: 0;
 }
@@ -28,7 +28,7 @@ body{
     border-radius: 10px;
   }
 
-  @keyframes flotter {
+ /* @keyframes flotter {
     0%, 100% { transform: translateY(0); }
     50% { transform: translateY(-10px); }
   }

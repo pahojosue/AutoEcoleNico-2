@@ -456,13 +456,11 @@ body {
  }
 .header-accueil{
     text-align: center;
-    color: #E81D4F;;
-    padding: 4rem 1rem;
+    color: white;
+    padding: 1rem 1rem;
     background-image: url(../images/02.jpg);
-    background-position: 0 0;
-    background-size: auto 100% ;
-    height: 70vh;
-    animation: scroll-bg 10s linear infinite;
+    background-size:100% ;
+    height: 60vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -488,15 +486,6 @@ body {
   width: 18px;
   height: 18px;
   object-fit: contain;
-}
-/*animation de defilement horizontal */
-@keyframes scroll-bg{
-    0%{
-        background-position: 0 0;
-    }
-    100% {
-        background-position: -100% 0;
-    }
 }
 .news-container {
     display: flex;
@@ -526,14 +515,15 @@ body {
     transition: trasform 0.3s ease;
  }
   .read-more-btn {
-  display: flex;
+  display: inline-flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   background-color:#E81D4F;
   color: white;
   border-radius: 3px;
-  padding: 1px 3px;
-  width: 160px; /* ← fixe la largeur pour que la flèche soit poussée */
+  border: none;
+  padding: 6px 3px;
+  width: 140px; /* ← fixe la largeur pour que la flèche soit poussée */
   text-decoration: none;
   font-size: 0.8rem;
   font-weight: bold;
@@ -546,22 +536,23 @@ body {
 }
 .btn-text {
   margin-left: 10px;
- margin-top: 40px;
+ margin-top: 75%;
   font-size: 15px;
   color: white;
+  text-align: center;
 }
 .circle-arrow {
+    display: inline-flex;
   background: white;
   color: #bb1841;;
-  border-radius: 100%;
-  width: 30px;
-  height: 30px;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
   font-size: 0.9rem;
-  display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 120px;
-  margin-bottom: 5px;
+  margin-left: 10px;
+  
 }
 
 .news-card img {
@@ -579,7 +570,7 @@ padding: 1rem;
 .news-card h3 {
     margin-top: 0;
     color: #0077b6;
-    font-size: 30px;
+    font-size: 25px;
     font-family: 'Barlow';
 }
 .news-card p{
