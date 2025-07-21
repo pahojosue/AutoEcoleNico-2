@@ -1,77 +1,69 @@
 body{
     font-family: 'Barlow' sans-serif;
-    background-color: rgb(6, 41, 66);
-    color: white;
+    background-image: url("notes.jpg");
+    padding: 2rem;
     margin: 0;
 }
-header{
-    background-color: rgb(6, 35, 56);
-    color: white;text-align: center;
+.detail-container{
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+    max-width: 1000px;
+    margin: auto;
+    background: white;
     padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    flex-wrap: wrap;
 }
-.contenu{
-    max-width: 800px;
-    margin: 2rem auto;
-    background: #fff;
-    padding: 1.5rem;
+.detail-image img{
+    width: 400px;
+    height: auto;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
- img{
-    width: 85%;
-    border-radius: 10px;
-    margin-top: 12px;
-    max-height: 350px;
     object-fit: cover;
-    margin-left: 15px;
 }
-.contenu h3{
-    margin-bottom: 0.5rem;
-    margin-left: 20px;
-    color: #0077b6;
-    font-size: 25px;
-}
-.date {
-    font-size: 1rem;
-    color: #777;
-    margin-bottom: 1rem;
-    margin-left: 15px;
-    font-size: 'barlow';
-}
+ .image-actualite-float {
+    animation: flotter 3s ease-in-out infinite;
+    max-width: 600px;
+    border-radius: 10px;
+  }
 
-.contenu p{
+  @keyframes flotter {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+  }
+.detail-text{
+    flex: 1;
+}
+.detail-title{
+    font-size: 2rem;
+    color: #E81D4F;;
+    margin-bottom: 1rem;
+}
+.detail-description{
+    font-size: 1.9rem;
     line-height: 1.6;
-    margin-left: 15px;
-    font-size: 23px;
-    color: red;
+    color: #333;
 }
-.btn .retour{
-display: inline-block;
-margin-top: 2rem;
-background-color:#0077b6 ;
-color: white;
-padding: 0.6rem 1.2rem;
-border-radius: 6px;
-text-decoration: none;
-transition: background-color 0.3s ease;
-}
-.btn-retour:hover{
-    background-color: #005f8a;
-}
-/* responsive*/
-@media (max-width:600px){
-    .contenu{
-        margin: 1rem;
+  .contact-info {
+    font-size: 1.5rem;
+    margin-top: 20px;
+    color: #333;
+    font-weight: bold;
+  }
+/*responsive */
+@media screen and (max-width:768px){
+    .detail-container{
+        flex-direction: column;
+        align-items: center;
         padding: 1rem;
     }
-    header{
-        padding: 1.5rem 1.5rem;
+    .detail-image img{
+        width: 100%;
+        max-width: 100%;
     }
-    .contenu h3{
-        font-size: 1.5rem;
-    }
-    .btn-retour{
-        padding: 0.5rem 1rem;
-        font-size: 0.9rem;
+    .detail-text{
+        width: 100%;
+        text-align: center;
     }
 }

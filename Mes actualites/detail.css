@@ -1,6 +1,7 @@
 body{
     font-family: 'Barlow' sans-serif;
-    background-color: #041E37;
+    /* background-color: #041E37; */
+    background-image: url("../../AutoEcoleNico-2/images/slider-1.jpg");
     padding: 2rem;
     margin: 0;
 }
