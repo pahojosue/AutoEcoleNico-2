@@ -1398,6 +1398,7 @@ body {
     background: #eff2f5;
     padding: var(--page-padding);
     text-align: center;
+    width: 100%;
 }
 
 .prim h3, .titulo span{
@@ -1522,6 +1523,7 @@ body {
     background: var(--transparent-background);
     padding: var(--page-padding);
     text-align: center;
+    width: 100%;
 }
 
 .News_blog{
@@ -1529,6 +1531,7 @@ body {
     justify-content: space-between;
     flex-wrap: wrap;
     margin-top: 100px;
+    padding-left: 22%;
 }
 
 .tercera .card_blog{
@@ -1545,9 +1548,10 @@ body {
 }
 
 .pcs img{
-    width: 360px;
+    width: 358px;
     height: 250px;
     border: 3px double #ffffff;
+    padding-right: 1px;
 }
 
 .pcs .detl, .rate{
@@ -1564,8 +1568,8 @@ body {
     margin-top: 4%;
     padding: 10px;
     background: var(--primary-color);
-    background: var(--primary-color);
     color: #fff;
+    text-decoration: none;
 }
 .card_blog a:hover{
     background: #fff;
