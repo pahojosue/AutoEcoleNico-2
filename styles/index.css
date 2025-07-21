@@ -1326,11 +1326,6 @@ body {
 
 
 /* ---------Formulaire---------- */
-.madre {
-    margin: 0;
-    box-sizing: border-box;
-}
-
 .previs{
     background: url(../body_footer/img/06.jpg);
     background-repeat: no-repeat;
@@ -1398,7 +1393,6 @@ body {
     background: #eff2f5;
     padding: var(--page-padding);
     text-align: center;
-    width: 100%;
 }
 
 .prim h3, .titulo span{
@@ -1523,7 +1517,6 @@ body {
     background: var(--transparent-background);
     padding: var(--page-padding);
     text-align: center;
-    width: 100%;
 }
 
 .News_blog{
@@ -1531,7 +1524,6 @@ body {
     justify-content: space-between;
     flex-wrap: wrap;
     margin-top: 100px;
-    padding-left: 22%;
 }
 
 .tercera .card_blog{
@@ -1548,10 +1540,9 @@ body {
 }
 
 .pcs img{
-    width: 358px;
+    width: 360px;
     height: 250px;
     border: 3px double #ffffff;
-    padding-right: 1px;
 }
 
 .pcs .detl, .rate{
@@ -1568,8 +1559,8 @@ body {
     margin-top: 4%;
     padding: 10px;
     background: var(--primary-color);
+    background: var(--primary-color);
     color: #fff;
-    text-decoration: none;
 }
 .card_blog a:hover{
     background: #fff;
@@ -1849,7 +1840,7 @@ footer{
         height: 30%;
     }
 
-    .hijo{
+.hijo{
     background: url(../body_footer/img/05.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -2107,9 +2098,6 @@ footer{
     margin-left: 5px;
 }
 
-
-
-
 }
 
 @media screen and (max-width: 992px) {
@@ -2215,11 +2203,17 @@ footer{
 
 }
 
-@media screen and (max-width:853px) {
+@media screen and (max-width: 825px) {
+    .index-pricing-card {
+        flex: 1 1 calc(50% - var(--page-padding));
+    }
+}
+
+@media screen and (max-width:800px) {
     
     
-    .hijo{
-    background: url(./img/05.jpg);
+.hijo{
+    background: url(../body_footer/img/05.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -2231,7 +2225,7 @@ footer{
 
 /* ---------Formulaire---------- */
 .previs{
-    background: url(./img/06.jpg);
+    background: url(../body_footer/img/06.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -2368,7 +2362,7 @@ footer{
 /* secund */
 
 .secund{
-    background: url(./img/mb.jpg);
+    background: url(../body_footer/img/mb.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 500px;
@@ -2474,12 +2468,6 @@ footer{
 
 
 
-}
-
-@media screen and (max-width: 825px) {
-    .index-pricing-card {
-        flex: 1 1 calc(50% - var(--page-padding));
-    }
 }
 
 /* -----------------Responsive mobile------------------ */
@@ -2856,12 +2844,9 @@ footer{
 }
 
 @media screen and (max-width:430px) {
-    
-
-
 
 .hijo{
-    background: url(./img/05.jpg);
+    background: url(../body_footer/img/05.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -2873,7 +2858,7 @@ footer{
 
 /* ---------Formulaire---------- */
 .previs{
-    background: url(./img/06.jpg);
+    background: url(../body_footer/img/06.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -2996,7 +2981,7 @@ footer{
 /* secund */
 
 .secund{
-    background: url(./img/mb.jpg);
+    background: url(../body_footer/img/mb.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 500px;
@@ -3208,7 +3193,7 @@ footer{
 @media screen and (max-width:375px) {
     
     .hijo{
-    background: url(./img/05.jpg);
+    background: url(../body_footer/img/05.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -3216,7 +3201,7 @@ footer{
 
 /* ---------Formulaire---------- */
 .previs{
-    background: url(./img/06.jpg);
+    background: url(../body_footer/img/06.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -3253,12 +3238,6 @@ footer{
 }
 
 /* ------------Formulaire------------ */
-
-
-
-
-
-
 
 .prim{
     background: #eff2f5;
@@ -3339,7 +3318,7 @@ footer{
 /* secund */
 
 .secund{
-    background: url(./img/mb.jpg);
+    background: url(../body_footer/img/mb.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 500px;
@@ -3463,14 +3442,9 @@ footer{
 
 @media  screen and  (max-width:320px) {
     
-
-
-
-
-
 /* ---------Formulaire---------- */
 .previs{
-    background: url(./img/06.jpg);
+    background: url(../body_footer/img/06.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -3516,12 +3490,6 @@ footer{
 }
 
 /* ------------Formulaire------------ */
-
-
-
-
-
-
 
 .prim{
     background: #eff2f5;
@@ -3602,7 +3570,7 @@ footer{
 /* secund */
 
 .secund{
-    background: url(./img/mb.jpg);
+    background: url(../body_footer/img/mb.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 500px;
