@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/all.min.css">
     <link rel="stylesheet" href="styles/swiper-bundle.min.css">
-    <link rel="stylesheet" href="styles/actualite.css">
+    <link rel="stylesheet" href="styles/details.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
     <script src="javascript/jquery.min.js"></script>
-    <script src="javascript/actualite.js"></script>
+    <script src="javascript/services.js"></script>
     <title>Document</title>
 </head>
 <body>
@@ -71,118 +72,75 @@
         </div>
     </div>
 
-<!--                            Main Part                   -->
-  <header class="header-accueil">
-   <div class="header-content">
-    <h1>ACTUALITES</h1>
-   </div>
-   <a href="index.html" class="home-link">
-    <span class="home-icon">🏠</span> 
-      <p>Home>></p> 
-   </a>
-  </header>
-<main>
-    <div class="search-bar">
-        <input type="text" id="search-input" placeholder="Rechercher une Actualité">
+<!--                             main                             -->
+    <div class="banniere">
+            <div class="banniere-texte">
+                <h2 class="services">SERVICES</h2>
+                <a href="" class="a-banniere"><i class="fa-solid fa-house" style="color: #ffffff;"></i> Accueil</a>
+                <a href="services.html" class="a-banniere"><i class="fa-solid fa-angles-right" style="color: #ffffff;"></i>Services</a>
+                <i class="fa-solid fa-angles-right" style="color: #ffffff;"> </i>
+                <span> Details</span>
+                
+            </div>
     </div>
-<div class="news-container">
-     <!----Actualites 1-->
-    <div class="news-card">
-      <a href="Mes actualites/actu 1.html">
-        <img src="./images/voiture.webp" alt="voiture Automatique">
-       <div class="content">
-        <h3>Nouveaux vehicules automatiques</h3>
-        <p class="date">publiee le 12 juillet 2025 a 10h30</p>
-       </a>
-        <a href="Mes actualites/actu 1.html" class="read-more-btn">
-     <span class="btn-text">READ MORE</span>
-     <span class="circle-arrow">➜</span>
-      </a>
-       </div>
-    </div>
- <!---Actualites 2-->
-   <div class="news-card">
-     <a href="Mes actualites/actu 2.html">
-      <img src="./images/OIP (1).webp" alt="voiture">
-      <div class="content">
-        <h3>Journee portes ouvertes</h3>
-        <p class="date">publiee le 10 mai 2025 a 09h30</p>     
-        </a>
-     <a href="Mes actualites/actu 2.html" class="read-more-btn">
-     <span class="btn-text">READ MORE</span>
-     <span class="circle-arrow">➜</span>
-      </a>
-      </div>
-    </div>
-    
+    <main>
+        <nav>
+            <h3>Cours</h3>
+            <ul>
+                <li class="ul1-li"><i class="fa-solid fa-angles-right" style="color: #E81D4F; margin-right: 5px;"></i><a href="details.html?id=1">Apprenez à conduire en douceur</a></li>
+                <li class="ul1-li"><i class="fa-solid fa-angles-right" style="color: #E81D4F; margin-right: 5px;"></i><a href="details.html?id=2">Cours pour adultes</a></li>
+                <li class="ul1-li"><i class="fa-solid fa-angles-right" style="color: #E81D4F; margin-right: 5px;"></i><a href="details.html?id=3">Leçons pour jeunes</a></li>
+                <li class="ul1-li"><i class="fa-solid fa-angles-right" style="color: #E81D4F; margin-right: 5px;"></i><a href="details.html?id=4">Cours de conduite sur autoroute</a></li>
+                <li class="ul1-li"><i class="fa-solid fa-angles-right" style="color: #E81D4F; margin-right: 5px;"></i><a href="details.html?id=5">Pour les conducteurs internationaux</a></li>
+                <li class="ul1-li"><i class="fa-solid fa-angles-right" style="color: #E81D4F; margin-right: 5px;"></i><a href="details.html?id=6">Leçons en voiture automatique</a></li>
+            </ul>
+            <h3>Telecharger</h2>
+            <ul>
+                <li><button><i class="far fa-file-pdf" style="color: #041E37;"></i>    Notre Brochure De Conduite</button></li>
+                <li><button><i class="fa-solid fa-passport" style="color: #041E37"></i>    Guide De Preparation à L'Examen</button></li>
+            </ul>
+        </nav>
+        <section>
+            <div class="div-image1">
+                <img src="" id="image-principale" alt="image principale" class="imageprincipale">
+            </div>
+            <h2 id="titre1"></h2>
+            <p id="para1"></p>
+            <p id="para2"></p>
+            <div class="div-images-horizontales">
+                <img id="image1" src="" alt="Image 1">
+                <img id="image2" src="" alt="Image 2">
+            </div>
+            <p id="para3"></p>
+            <h2 id="titre2"></h2>
+            <table>
+                <thead>
+                    <!-- <tr>
+                        <th>Nom</th>
+                        <th>Valeur</th>
+                    </tr> -->
+                </thead>
+                <tbody id="tableau">
+                    <!-- 6 lignes insérées dynamiquement -->
+                </tbody>
+            </table>
+            <h2 id="titre3"></h2>
+            <p id="para4"></p>
 
-<!---Actualites 3-->
-   <div class="news-card">
-      <a href="Mes actualites/actu 3.html">
-     <img src="./images/moniteur.jpg" alt="moniteur">
-     <div class="content">
-        <h3>Formation numerique</h3>
-        <p class="date">publiee le 15 juin 2025 a 10h30</p>
-     </a>
-      <a href="Mes actualites/actu 3.html" class="read-more-btn">
-        <span class="btn-text">READ MORE</span>
-         <span class="circle-arrow">➜</span>
-      </a>
-     </div>
-    </div>
+            <ul id="liste">
+                <!-- 5 éléments dynamiques ici -->
+            </ul>
 
-<!---Actualites 4-->
-   <div class="news-card">
-      <a href="Mes actualites/actu 4.html">
-     <img src="./images/oip 5.webp" alt="equipe">
-     <div class="content">
-        <h3>Equipe pedagogique</h3>
-        <p class="date">publiee le 28 juin 2025 a 14h30</p>
-        </a>
-      <a href="Mes actualites/actu 4.html" class="read-more-btn">
-        <span class="btn-text">READ MORE</span>
-         <span class="circle-arrow">➜</span>
-      </a>
-    </div>
-</div>
-<!---Actualites 5-->
-   <div class="news-card">
-      <a href="Mes actualites/actu 5.html">
-     <img src="./images/oip 2.jpg" alt="etudiant">
-     <div class="content">
-        <h3>Reduction pour etudiants</h3>
-        <p class="date">publiee le 10 juillet 2025 a 14h30</p>
-       </a>
-       <a href="Mes actualites/actu 5.html" class="read-more-btn">
-        <span class="btn-text">READ MORE</span>
-         <span class="circle-arrow">➜</span>
-      </a>
-     </div>
-    </div>
+            <h2 id="titre4"></h2>
+            <p id="para5"></p>
+
+        </section>
+    </main>
 
 
-<!---Actualites 6-->
-   <div class="news-card">
-     <img src="./images/img4.jpg" alt="stage">
-     <a href="Mes actualites/actu 6.html">
-     <div class="content">
-        <h3>Stage acceléré</h3>
-        <p class="date">publiee le 10 juin 2025 a 14h30</p>
-     </a>
-     <a href="Mes actualites/actu 6.html" class="read-more-btn">
-        <span class="btn-text">READ MORE</span>
-         <span class="circle-arrow">➜</span>
-      </a>
-     </div>
-    </div>
-</div>
-   
-   <div class="controls">
-    <button disabled> precedent</button>
-    <button disabled>suivant </button>
-</div>
-   </main>
-<!--                            End Of Main Part                   -->
+
+
+<!--                             end main                             -->
 
 <!--                             Footer                             -->
                              <footer>
@@ -273,5 +231,6 @@
     <script src="javascript/swiper-bundle.min.js"></script>
     <script src="javascript/all.min.js"></script>
 
+    <script src="javascript/details.js"></script>
 </body>
 </html>

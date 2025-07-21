@@ -440,12 +440,16 @@ footer{
 
 /*                  End Footer          */
 
-/*                 Main Style             */
 
+/*                  main          */
 
 :root{
   --background-color: #EFF2F5;
 }
+/*body{
+    display: flex;
+    justify-content: center;
+}*/
 .a-banniere{
   text-decoration: none;
   color: #fff;
@@ -477,180 +481,155 @@ h2{
   color: #fff;
 }
 
-
-/*main*/
 main{
-  background-color: var(--background-color);
+  padding: var(--page-padding);
   display: flex;
+  min-height: 100vh;
   justify-content: center;
-  padding: 20px;
-  padding: 50px 0;
 }
 
 
-/*section*/
+
+nav{
+    min-width: calc(20vw - var(--page-padding) * 2);
+    color: var(--secondary-color);
+    margin-right: 30px;
+
+
+}
+nav h3{
+    font-family: 'Barlow-bold', sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 3px solid var(--primary-color); /* couleur et épaisseur de la ligne */
+    width: 15%;
+}
+nav ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    margin-top: 35px;
+    margin-bottom: 80px;
+}
+nav ul .ul1-li{
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+    border-bottom: 0.5px solid var(--secondary-color); /* couleur et épaisseur de la ligne */
+    
+}
+nav a{
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+nav button{
+    border: 2px solid var(--primary-color);
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    min-width: 100%;
+    text-align: left;
+
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+nav button:hover{
+    background: var(--primary-color);
+    color: #fff;
+    transition: all 0.5s ease-in-out;
+}
 section{
-
-  display: grid;
-  gap: 20px;
-  /*max-width: calc(100vw - var(--page-padding));*/
-  margin: 0 auto;
-  padding: 20px var(--page-padding) 20px var(--page-padding);
-  /*padding-left: var(--page-padding);
-  padding-right: var(--page-padding);*/
+    flex: 1;
 }
-@media (min-width: 1024px) {
-    section {
-        grid-template-columns: repeat(3, 1fr);
+.div-image1{
+    width: calc(80vw - var(--page-padding) * 2);
+    height: 450px;
+    padding-bottom: 20px;
+    overflow: hidden;
+}
+.div-image1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.div-images-horizontales{
+    /*display: inline-block;
+    width: calc(80vw - var(--page-padding) * 2);
+    height: 450px;
+    padding-bottom: 20px;
+    overflow: hidden;*/
+    display: flex;
+    flex-direction: row;
+}
+.div-images-horizontales img{
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+    margin-right: 20px;
+}
+h2 {
+    color: var(--secondary-color);
+    font-family: 'Barlow-bold', sans-serif;
+    font-weight: bolder;
+}
+
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+/* Bordures du tableau */
+table, th, td {
+    border: 0.1px solid #ddd;
+}
+
+/* Colonnes gauche : td qui sont les premières colonnes */
+table td:first-child {
+    color: black;
+    font-weight: bold;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+#liste {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.services{
+    color: #fff;
+}
+
+/* Quand l’écran est petit */
+@media (max-width: 1208px) {
+    main {
+        flex-direction: column;
+    }
+    .div-image1 {
+        width: 100%;
+        height: 450px;
+        justify-content: center;
+    }
+    .div-images-horizontales{
+        padding-right: var(--page-padding);
     }
 }
-@media (min-width: 768px) and (max-width: 1023px) {
-  section {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-@media (max-width: 767px) {
-  section {
-    grid-template-columns: 1fr;
-  }
-}
-.cadre{
-  background: #fff;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-  position: relative;
-  overflow: visible;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 50px;
-  padding-top: 100px; /* Laisse de la place pour l'image qui dépasse */
-  padding-bottom: calc(5% + 20px); /* le padding bottom est egale  à 5% du parent + 20px */
-  transition: transform .3s;
-  min-height: 400px;
-  max-width: 450px;
-
-  border-top: var(--background-color) solid transparent 30px;
-}
-.cadre:hover {
-  transform: translateY(-5px);
-}
-
-
-.cadre-image{
-  position: absolute;
-  top: -30px; /* fait dépasser l'image */
-  width: 200px;
-  height: 50%;
-  width: 80%;
-  overflow: hidden;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-  background: #fff;;
-}
-.cadre-image img{
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.cadre-cadre2{
-  margin-top: auto;
-  margin-bottom: 10%;
-  padding: 10px;
-  text-align: center;
-  width: 80%;
-  height: 50% /* Ajuste la hauteur pour laisser de la place à l'image */
-}
-.cadre-cadre2 p{
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
-  font-size: 0.9375rem;
-  line-height: 1.6;
-  color: #555;
-  margin: 0;
-  text-align: left;
-}
-.cadre-cadre2-infos ul{
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  justify-content: space-between;
-  color: #555;
-}
-.prix{
-  color: var(--primary-color);
-}
-h4{
-  font-family: 'Roboto', sans-serif;
-  font-weight: 500;
-  font-size: 1.125rem;
-  line-height: 1.4;
-  color: var(--secondary-color);
-  margin-bottom: 0.5rem;
-  text-align: left;
-}
-.titre-h4{
-  text-decoration: none;
-}
-
-
-.cadre-cadre2-bas{
-  display: flex;
-  flex-direction: row;
-  justify-content: left;
-  align-items: center;
-  border-top: #555 solid 1px;
-  margin-bottom: 5px;
-  margin-top: 5px;
-  padding: 0;
-  width: 100%;
-  height: 35%;
-  margin: auto;
-}
-.cadre-cadre2-bas-infos{
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: left;
-  margin-left: 15px;
-  padding-left: 0;
-  margin-right: auto;
-}
-.cadre-cadre2-bas-infos p{
-  text-align:inherit;
-}
-
-h6{
-  color: var(--secondary-color);
-  font-family: 'Roboto', sans-serif;
-  font-weight: 500;
-  font-size: 0.8rem;
-  text-align: left;
-  margin-bottom: auto;
-
-}
-.cadre-cadre2-bas img{
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  margin-top: 20px;
-
-}
-.cadre-cadre2-bas a{
-  text-decoration: none;
-  color: #fff;
-  background-color: var(--primary-color);
-  padding: 10px;
-}
-.cadre-cadre2-bas a:hover{
-  color: #fff;
-  background-color: var(--secondary-color);
-  transition: background-color 0.5s ease;
-}
 
 
 
-/*                  End Main                */
+
+
+
+/*                  End main          */
 
 @media screen and (max-width: 881px) {
     #header .header-top {
